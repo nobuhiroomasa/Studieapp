@@ -7,160 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200000000000000000000001 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* AppEnvironment.swift */; };
-		200000000000000000000002 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* AppRoute.swift */; };
-		200000000000000000000003 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* MainTabView.swift */; };
-		200000000000000000000004 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* RootView.swift */; };
-		200000000000000000000005 /* BenkyokunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* BenkyokunApp.swift */; };
-		200000000000000000000006 /* DestructiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* DestructiveButton.swift */; };
-		200000000000000000000007 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* PrimaryButton.swift */; };
-		200000000000000000000008 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* SecondaryButton.swift */; };
-		200000000000000000000009 /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* AppCard.swift */; };
-		20000000000000000000000A /* QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* QuestionCard.swift */; };
-		20000000000000000000000B /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* ResultCard.swift */; };
-		20000000000000000000000C /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* StatCard.swift */; };
-		20000000000000000000000D /* CategoryAccuracyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* CategoryAccuracyChart.swift */; };
-		20000000000000000000000E /* DailyAnswerBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* DailyAnswerBarChart.swift */; };
-		20000000000000000000000F /* GoalProgressChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* GoalProgressChart.swift */; };
-		200000000000000000000010 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* EmptyStateView.swift */; };
-		200000000000000000000011 /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* ErrorMessageView.swift */; };
-		200000000000000000000012 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* LoadingView.swift */; };
-		200000000000000000000013 /* AnswerOptionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* AnswerOptionPicker.swift */; };
-		200000000000000000000014 /* AppTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* AppTextEditor.swift */; };
-		200000000000000000000015 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* AppTextField.swift */; };
-		200000000000000000000016 /* CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000016 /* CategoryPicker.swift */; };
-		200000000000000000000017 /* AnswerOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000017 /* AnswerOptionButton.swift */; };
-		200000000000000000000018 /* CategoryChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000018 /* CategoryChip.swift */; };
-		200000000000000000000019 /* QuizProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000019 /* QuizProgressBar.swift */; };
-		20000000000000000000001A /* SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001A /* SettingsRow.swift */; };
-		20000000000000000000001B /* Color+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001B /* Color+AppColors.swift */; };
-		20000000000000000000001C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001C /* Date+Extensions.swift */; };
-		20000000000000000000001D /* Double+Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001D /* Double+Percent.swift */; };
-		20000000000000000000001E /* AnswerHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001E /* AnswerHistory.swift */; };
-		20000000000000000000001F /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001F /* AppSetting.swift */; };
-		200000000000000000000020 /* AnswerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000020 /* AnswerOption.swift */; };
-		200000000000000000000021 /* QuestionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000021 /* QuestionCategory.swift */; };
-		200000000000000000000022 /* QuestionSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000022 /* QuestionSourceType.swift */; };
-		200000000000000000000023 /* QuizMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000023 /* QuizMode.swift */; };
-		200000000000000000000024 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000024 /* Question.swift */; };
-		200000000000000000000025 /* ReviewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000025 /* ReviewStatus.swift */; };
-		200000000000000000000026 /* StudyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000026 /* StudyGoal.swift */; };
-		200000000000000000000027 /* AnswerHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000027 /* AnswerHistoryRepository.swift */; };
-		200000000000000000000028 /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000028 /* QuestionRepository.swift */; };
-		200000000000000000000029 /* ReviewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000029 /* ReviewRepository.swift */; };
-		20000000000000000000002A /* StudyGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002A /* StudyGoalRepository.swift */; };
-		20000000000000000000002B /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002B /* PreviewData.swift */; };
-		20000000000000000000002C /* GoalProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002C /* GoalProgressService.swift */; };
-		20000000000000000000002D /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002D /* QuizService.swift */; };
-		20000000000000000000002E /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002E /* ReviewService.swift */; };
-		20000000000000000000002F /* SampleDataSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002F /* SampleDataSeeder.swift */; };
-		200000000000000000000030 /* StudyStatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000030 /* StudyStatsService.swift */; };
-		200000000000000000000031 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000031 /* AppConstants.swift */; };
-		200000000000000000000032 /* DateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000032 /* DateCalculator.swift */; };
-		200000000000000000000033 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000033 /* ValidationError.swift */; };
-		200000000000000000000034 /* GoalSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000034 /* GoalSettingViewModel.swift */; };
-		200000000000000000000035 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000035 /* HomeViewModel.swift */; };
-		200000000000000000000036 /* QuestionFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000036 /* QuestionFormViewModel.swift */; };
-		200000000000000000000037 /* QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000037 /* QuestionListViewModel.swift */; };
-		200000000000000000000038 /* QuizSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000038 /* QuizSessionViewModel.swift */; };
-		200000000000000000000039 /* QuizSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000039 /* QuizSettingViewModel.swift */; };
-		20000000000000000000003A /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003A /* ReviewViewModel.swift */; };
-		20000000000000000000003B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003B /* SettingsViewModel.swift */; };
-		20000000000000000000003C /* StudyRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003C /* StudyRecordViewModel.swift */; };
-		20000000000000000000003D /* GoalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003D /* GoalSettingView.swift */; };
-		20000000000000000000003E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003E /* HomeView.swift */; };
-		20000000000000000000003F /* QuestionCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003F /* QuestionCreateView.swift */; };
-		200000000000000000000040 /* QuestionEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000040 /* QuestionEditView.swift */; };
-		200000000000000000000041 /* QuestionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000041 /* QuestionFormView.swift */; };
-		200000000000000000000042 /* QuestionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000042 /* QuestionListView.swift */; };
-		200000000000000000000043 /* AnswerResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000043 /* AnswerResultView.swift */; };
-		200000000000000000000044 /* QuizCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000044 /* QuizCompleteView.swift */; };
-		200000000000000000000045 /* QuizSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000045 /* QuizSettingView.swift */; };
-		200000000000000000000046 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000046 /* QuizView.swift */; };
-		200000000000000000000047 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000047 /* ReviewView.swift */; };
-		200000000000000000000048 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000048 /* SettingsView.swift */; };
-		200000000000000000000049 /* StudyRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000049 /* StudyRecordView.swift */; };
-		400000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000001 /* Assets.xcassets */; };
-		400000000000000000000002 /* SampleQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000002 /* SampleQuestions.json */; };
+		200000000000000000000001 /* Benkyokun/App/AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* Benkyokun/App/AppEnvironment.swift */; };
+		200000000000000000000002 /* Benkyokun/App/AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* Benkyokun/App/AppRoute.swift */; };
+		200000000000000000000003 /* Benkyokun/App/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* Benkyokun/App/MainTabView.swift */; };
+		200000000000000000000004 /* Benkyokun/App/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* Benkyokun/App/RootView.swift */; };
+		200000000000000000000005 /* Benkyokun/BenkyokunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* Benkyokun/BenkyokunApp.swift */; };
+		200000000000000000000006 /* Benkyokun/Components/Buttons/DestructiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* Benkyokun/Components/Buttons/DestructiveButton.swift */; };
+		200000000000000000000007 /* Benkyokun/Components/Buttons/PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* Benkyokun/Components/Buttons/PrimaryButton.swift */; };
+		200000000000000000000008 /* Benkyokun/Components/Buttons/SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000008 /* Benkyokun/Components/Buttons/SecondaryButton.swift */; };
+		200000000000000000000009 /* Benkyokun/Components/Cards/AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000009 /* Benkyokun/Components/Cards/AppCard.swift */; };
+		20000000000000000000000A /* Benkyokun/Components/Cards/QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* Benkyokun/Components/Cards/QuestionCard.swift */; };
+		20000000000000000000000B /* Benkyokun/Components/Cards/ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* Benkyokun/Components/Cards/ResultCard.swift */; };
+		20000000000000000000000C /* Benkyokun/Components/Cards/StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* Benkyokun/Components/Cards/StatCard.swift */; };
+		20000000000000000000000D /* Benkyokun/Components/Charts/CategoryAccuracyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* Benkyokun/Components/Charts/CategoryAccuracyChart.swift */; };
+		20000000000000000000000E /* Benkyokun/Components/Charts/DailyAnswerBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* Benkyokun/Components/Charts/DailyAnswerBarChart.swift */; };
+		20000000000000000000000F /* Benkyokun/Components/Charts/GoalProgressChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* Benkyokun/Components/Charts/GoalProgressChart.swift */; };
+		200000000000000000000010 /* Benkyokun/Components/Feedback/EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000010 /* Benkyokun/Components/Feedback/EmptyStateView.swift */; };
+		200000000000000000000011 /* Benkyokun/Components/Feedback/ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000011 /* Benkyokun/Components/Feedback/ErrorMessageView.swift */; };
+		200000000000000000000012 /* Benkyokun/Components/Feedback/LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000012 /* Benkyokun/Components/Feedback/LoadingView.swift */; };
+		200000000000000000000013 /* Benkyokun/Components/Form/AnswerOptionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000013 /* Benkyokun/Components/Form/AnswerOptionPicker.swift */; };
+		200000000000000000000014 /* Benkyokun/Components/Form/AppTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000014 /* Benkyokun/Components/Form/AppTextEditor.swift */; };
+		200000000000000000000015 /* Benkyokun/Components/Form/AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000015 /* Benkyokun/Components/Form/AppTextField.swift */; };
+		200000000000000000000016 /* Benkyokun/Components/Form/CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000016 /* Benkyokun/Components/Form/CategoryPicker.swift */; };
+		200000000000000000000017 /* Benkyokun/Components/Quiz/AnswerOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000017 /* Benkyokun/Components/Quiz/AnswerOptionButton.swift */; };
+		200000000000000000000018 /* Benkyokun/Components/Quiz/CategoryChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000018 /* Benkyokun/Components/Quiz/CategoryChip.swift */; };
+		200000000000000000000019 /* Benkyokun/Components/Quiz/QuizProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000019 /* Benkyokun/Components/Quiz/QuizProgressBar.swift */; };
+		20000000000000000000001A /* Benkyokun/Components/Settings/SettingsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001A /* Benkyokun/Components/Settings/SettingsRow.swift */; };
+		20000000000000000000001B /* Benkyokun/Extensions/Color+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001B /* Benkyokun/Extensions/Color+AppColors.swift */; };
+		20000000000000000000001C /* Benkyokun/Extensions/Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001C /* Benkyokun/Extensions/Date+Extensions.swift */; };
+		20000000000000000000001D /* Benkyokun/Extensions/Double+Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001D /* Benkyokun/Extensions/Double+Percent.swift */; };
+		20000000000000000000001E /* Benkyokun/Models/AnswerHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001E /* Benkyokun/Models/AnswerHistory.swift */; };
+		20000000000000000000001F /* Benkyokun/Models/AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000001F /* Benkyokun/Models/AppSetting.swift */; };
+		200000000000000000000020 /* Benkyokun/Models/Enums/AnswerOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000020 /* Benkyokun/Models/Enums/AnswerOption.swift */; };
+		200000000000000000000021 /* Benkyokun/Models/Enums/QuestionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000021 /* Benkyokun/Models/Enums/QuestionCategory.swift */; };
+		200000000000000000000022 /* Benkyokun/Models/Enums/QuestionSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000022 /* Benkyokun/Models/Enums/QuestionSourceType.swift */; };
+		200000000000000000000023 /* Benkyokun/Models/Enums/QuizMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000023 /* Benkyokun/Models/Enums/QuizMode.swift */; };
+		200000000000000000000024 /* Benkyokun/Models/Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000024 /* Benkyokun/Models/Question.swift */; };
+		200000000000000000000025 /* Benkyokun/Models/ReviewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000025 /* Benkyokun/Models/ReviewStatus.swift */; };
+		200000000000000000000026 /* Benkyokun/Models/StudyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000026 /* Benkyokun/Models/StudyGoal.swift */; };
+		200000000000000000000027 /* Benkyokun/Repositories/AnswerHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000027 /* Benkyokun/Repositories/AnswerHistoryRepository.swift */; };
+		200000000000000000000028 /* Benkyokun/Repositories/QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000028 /* Benkyokun/Repositories/QuestionRepository.swift */; };
+		200000000000000000000029 /* Benkyokun/Repositories/ReviewRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000029 /* Benkyokun/Repositories/ReviewRepository.swift */; };
+		20000000000000000000002A /* Benkyokun/Repositories/StudyGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002A /* Benkyokun/Repositories/StudyGoalRepository.swift */; };
+		20000000000000000000002B /* Benkyokun/Resources/PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002B /* Benkyokun/Resources/PreviewData.swift */; };
+		20000000000000000000002C /* Benkyokun/Services/GoalProgressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002C /* Benkyokun/Services/GoalProgressService.swift */; };
+		20000000000000000000002D /* Benkyokun/Services/QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002D /* Benkyokun/Services/QuizService.swift */; };
+		20000000000000000000002E /* Benkyokun/Services/ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002E /* Benkyokun/Services/ReviewService.swift */; };
+		20000000000000000000002F /* Benkyokun/Services/SampleDataSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000002F /* Benkyokun/Services/SampleDataSeeder.swift */; };
+		200000000000000000000030 /* Benkyokun/Services/StudyStatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000030 /* Benkyokun/Services/StudyStatsService.swift */; };
+		200000000000000000000031 /* Benkyokun/Utilities/AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000031 /* Benkyokun/Utilities/AppConstants.swift */; };
+		200000000000000000000032 /* Benkyokun/Utilities/DateCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000032 /* Benkyokun/Utilities/DateCalculator.swift */; };
+		200000000000000000000033 /* Benkyokun/Utilities/ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000033 /* Benkyokun/Utilities/ValidationError.swift */; };
+		200000000000000000000034 /* Benkyokun/ViewModels/GoalSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000034 /* Benkyokun/ViewModels/GoalSettingViewModel.swift */; };
+		200000000000000000000035 /* Benkyokun/ViewModels/HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000035 /* Benkyokun/ViewModels/HomeViewModel.swift */; };
+		200000000000000000000036 /* Benkyokun/ViewModels/QuestionFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000036 /* Benkyokun/ViewModels/QuestionFormViewModel.swift */; };
+		200000000000000000000037 /* Benkyokun/ViewModels/QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000037 /* Benkyokun/ViewModels/QuestionListViewModel.swift */; };
+		200000000000000000000038 /* Benkyokun/ViewModels/QuizSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000038 /* Benkyokun/ViewModels/QuizSessionViewModel.swift */; };
+		200000000000000000000039 /* Benkyokun/ViewModels/QuizSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000039 /* Benkyokun/ViewModels/QuizSettingViewModel.swift */; };
+		20000000000000000000003A /* Benkyokun/ViewModels/ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003A /* Benkyokun/ViewModels/ReviewViewModel.swift */; };
+		20000000000000000000003B /* Benkyokun/ViewModels/SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003B /* Benkyokun/ViewModels/SettingsViewModel.swift */; };
+		20000000000000000000003C /* Benkyokun/ViewModels/StudyRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003C /* Benkyokun/ViewModels/StudyRecordViewModel.swift */; };
+		20000000000000000000003D /* Benkyokun/Views/Goal/GoalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003D /* Benkyokun/Views/Goal/GoalSettingView.swift */; };
+		20000000000000000000003E /* Benkyokun/Views/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003E /* Benkyokun/Views/Home/HomeView.swift */; };
+		20000000000000000000003F /* Benkyokun/Views/QuestionManagement/QuestionCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000003F /* Benkyokun/Views/QuestionManagement/QuestionCreateView.swift */; };
+		200000000000000000000040 /* Benkyokun/Views/QuestionManagement/QuestionEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000040 /* Benkyokun/Views/QuestionManagement/QuestionEditView.swift */; };
+		200000000000000000000041 /* Benkyokun/Views/QuestionManagement/QuestionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000041 /* Benkyokun/Views/QuestionManagement/QuestionFormView.swift */; };
+		200000000000000000000042 /* Benkyokun/Views/QuestionManagement/QuestionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000042 /* Benkyokun/Views/QuestionManagement/QuestionListView.swift */; };
+		200000000000000000000043 /* Benkyokun/Views/Quiz/AnswerResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000043 /* Benkyokun/Views/Quiz/AnswerResultView.swift */; };
+		200000000000000000000044 /* Benkyokun/Views/Quiz/QuizCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000044 /* Benkyokun/Views/Quiz/QuizCompleteView.swift */; };
+		200000000000000000000045 /* Benkyokun/Views/Quiz/QuizSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000045 /* Benkyokun/Views/Quiz/QuizSettingView.swift */; };
+		200000000000000000000046 /* Benkyokun/Views/Quiz/QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000046 /* Benkyokun/Views/Quiz/QuizView.swift */; };
+		200000000000000000000047 /* Benkyokun/Views/Review/ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000047 /* Benkyokun/Views/Review/ReviewView.swift */; };
+		200000000000000000000048 /* Benkyokun/Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000048 /* Benkyokun/Views/Settings/SettingsView.swift */; };
+		200000000000000000000049 /* Benkyokun/Views/StudyRecord/StudyRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000049 /* Benkyokun/Views/StudyRecord/StudyRecordView.swift */; };
+		400000000000000000000001 /* Benkyokun/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000001 /* Benkyokun/Resources/Assets.xcassets */; };
+		400000000000000000000002 /* Benkyokun/Resources/SampleQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000002 /* Benkyokun/Resources/SampleQuestions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		000000000000000000000006 /* Benkyokun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Benkyokun.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		100000000000000000000001 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/AppEnvironment.swift; sourceTree = "<group>"; };
-		100000000000000000000002 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/AppRoute.swift; sourceTree = "<group>"; };
-		100000000000000000000003 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/MainTabView.swift; sourceTree = "<group>"; };
-		100000000000000000000004 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/RootView.swift; sourceTree = "<group>"; };
-		100000000000000000000005 /* BenkyokunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/BenkyokunApp.swift; sourceTree = "<group>"; };
-		100000000000000000000006 /* DestructiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Buttons/DestructiveButton.swift; sourceTree = "<group>"; };
-		100000000000000000000007 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Buttons/PrimaryButton.swift; sourceTree = "<group>"; };
-		100000000000000000000008 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Buttons/SecondaryButton.swift; sourceTree = "<group>"; };
-		100000000000000000000009 /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/AppCard.swift; sourceTree = "<group>"; };
-		10000000000000000000000A /* QuestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/QuestionCard.swift; sourceTree = "<group>"; };
-		10000000000000000000000B /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/ResultCard.swift; sourceTree = "<group>"; };
-		10000000000000000000000C /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/StatCard.swift; sourceTree = "<group>"; };
-		10000000000000000000000D /* CategoryAccuracyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Charts/CategoryAccuracyChart.swift; sourceTree = "<group>"; };
-		10000000000000000000000E /* DailyAnswerBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Charts/DailyAnswerBarChart.swift; sourceTree = "<group>"; };
-		10000000000000000000000F /* GoalProgressChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Charts/GoalProgressChart.swift; sourceTree = "<group>"; };
-		100000000000000000000010 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Feedback/EmptyStateView.swift; sourceTree = "<group>"; };
-		100000000000000000000011 /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Feedback/ErrorMessageView.swift; sourceTree = "<group>"; };
-		100000000000000000000012 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Feedback/LoadingView.swift; sourceTree = "<group>"; };
-		100000000000000000000013 /* AnswerOptionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/AnswerOptionPicker.swift; sourceTree = "<group>"; };
-		100000000000000000000014 /* AppTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/AppTextEditor.swift; sourceTree = "<group>"; };
-		100000000000000000000015 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/AppTextField.swift; sourceTree = "<group>"; };
-		100000000000000000000016 /* CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/CategoryPicker.swift; sourceTree = "<group>"; };
-		100000000000000000000017 /* AnswerOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Quiz/AnswerOptionButton.swift; sourceTree = "<group>"; };
-		100000000000000000000018 /* CategoryChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Quiz/CategoryChip.swift; sourceTree = "<group>"; };
-		100000000000000000000019 /* QuizProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Quiz/QuizProgressBar.swift; sourceTree = "<group>"; };
-		10000000000000000000001A /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Settings/SettingsRow.swift; sourceTree = "<group>"; };
-		10000000000000000000001B /* Color+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Benkyokun/Extensions/Color+AppColors.swift"; sourceTree = "<group>"; };
-		10000000000000000000001C /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Benkyokun/Extensions/Date+Extensions.swift"; sourceTree = "<group>"; };
-		10000000000000000000001D /* Double+Percent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Benkyokun/Extensions/Double+Percent.swift"; sourceTree = "<group>"; };
-		10000000000000000000001E /* AnswerHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/AnswerHistory.swift; sourceTree = "<group>"; };
-		10000000000000000000001F /* AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/AppSetting.swift; sourceTree = "<group>"; };
-		100000000000000000000020 /* AnswerOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/AnswerOption.swift; sourceTree = "<group>"; };
-		100000000000000000000021 /* QuestionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/QuestionCategory.swift; sourceTree = "<group>"; };
-		100000000000000000000022 /* QuestionSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/QuestionSourceType.swift; sourceTree = "<group>"; };
-		100000000000000000000023 /* QuizMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/QuizMode.swift; sourceTree = "<group>"; };
-		100000000000000000000024 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Question.swift; sourceTree = "<group>"; };
-		100000000000000000000025 /* ReviewStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/ReviewStatus.swift; sourceTree = "<group>"; };
-		100000000000000000000026 /* StudyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/StudyGoal.swift; sourceTree = "<group>"; };
-		100000000000000000000027 /* AnswerHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/AnswerHistoryRepository.swift; sourceTree = "<group>"; };
-		100000000000000000000028 /* QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/QuestionRepository.swift; sourceTree = "<group>"; };
-		100000000000000000000029 /* ReviewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/ReviewRepository.swift; sourceTree = "<group>"; };
-		10000000000000000000002A /* StudyGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/StudyGoalRepository.swift; sourceTree = "<group>"; };
-		10000000000000000000002B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Resources/PreviewData.swift; sourceTree = "<group>"; };
-		10000000000000000000002C /* GoalProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/GoalProgressService.swift; sourceTree = "<group>"; };
-		10000000000000000000002D /* QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/QuizService.swift; sourceTree = "<group>"; };
-		10000000000000000000002E /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/ReviewService.swift; sourceTree = "<group>"; };
-		10000000000000000000002F /* SampleDataSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/SampleDataSeeder.swift; sourceTree = "<group>"; };
-		100000000000000000000030 /* StudyStatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/StudyStatsService.swift; sourceTree = "<group>"; };
-		100000000000000000000031 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Utilities/AppConstants.swift; sourceTree = "<group>"; };
-		100000000000000000000032 /* DateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Utilities/DateCalculator.swift; sourceTree = "<group>"; };
-		100000000000000000000033 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Utilities/ValidationError.swift; sourceTree = "<group>"; };
-		100000000000000000000034 /* GoalSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/GoalSettingViewModel.swift; sourceTree = "<group>"; };
-		100000000000000000000035 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
-		100000000000000000000036 /* QuestionFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuestionFormViewModel.swift; sourceTree = "<group>"; };
-		100000000000000000000037 /* QuestionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuestionListViewModel.swift; sourceTree = "<group>"; };
-		100000000000000000000038 /* QuizSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuizSessionViewModel.swift; sourceTree = "<group>"; };
-		100000000000000000000039 /* QuizSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuizSettingViewModel.swift; sourceTree = "<group>"; };
-		10000000000000000000003A /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/ReviewViewModel.swift; sourceTree = "<group>"; };
-		10000000000000000000003B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/SettingsViewModel.swift; sourceTree = "<group>"; };
-		10000000000000000000003C /* StudyRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/StudyRecordViewModel.swift; sourceTree = "<group>"; };
-		10000000000000000000003D /* GoalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Goal/GoalSettingView.swift; sourceTree = "<group>"; };
-		10000000000000000000003E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Home/HomeView.swift; sourceTree = "<group>"; };
-		10000000000000000000003F /* QuestionCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionCreateView.swift; sourceTree = "<group>"; };
-		100000000000000000000040 /* QuestionEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionEditView.swift; sourceTree = "<group>"; };
-		100000000000000000000041 /* QuestionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionFormView.swift; sourceTree = "<group>"; };
-		100000000000000000000042 /* QuestionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionListView.swift; sourceTree = "<group>"; };
-		100000000000000000000043 /* AnswerResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/AnswerResultView.swift; sourceTree = "<group>"; };
-		100000000000000000000044 /* QuizCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/QuizCompleteView.swift; sourceTree = "<group>"; };
-		100000000000000000000045 /* QuizSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/QuizSettingView.swift; sourceTree = "<group>"; };
-		100000000000000000000046 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/QuizView.swift; sourceTree = "<group>"; };
-		100000000000000000000047 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Review/ReviewView.swift; sourceTree = "<group>"; };
-		100000000000000000000048 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
-		100000000000000000000049 /* StudyRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/StudyRecord/StudyRecordView.swift; sourceTree = "<group>"; };
-		300000000000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Benkyokun/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		300000000000000000000002 /* SampleQuestions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Benkyokun/Resources/SampleQuestions.json; sourceTree = "<group>"; };
+		100000000000000000000001 /* Benkyokun/App/AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/AppEnvironment.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* Benkyokun/App/AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/AppRoute.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* Benkyokun/App/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/MainTabView.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* Benkyokun/App/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/App/RootView.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* Benkyokun/BenkyokunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/BenkyokunApp.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* Benkyokun/Components/Buttons/DestructiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Buttons/DestructiveButton.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* Benkyokun/Components/Buttons/PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Buttons/PrimaryButton.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* Benkyokun/Components/Buttons/SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Buttons/SecondaryButton.swift; sourceTree = "<group>"; };
+		100000000000000000000009 /* Benkyokun/Components/Cards/AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/AppCard.swift; sourceTree = "<group>"; };
+		10000000000000000000000A /* Benkyokun/Components/Cards/QuestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/QuestionCard.swift; sourceTree = "<group>"; };
+		10000000000000000000000B /* Benkyokun/Components/Cards/ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/ResultCard.swift; sourceTree = "<group>"; };
+		10000000000000000000000C /* Benkyokun/Components/Cards/StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Cards/StatCard.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* Benkyokun/Components/Charts/CategoryAccuracyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Charts/CategoryAccuracyChart.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* Benkyokun/Components/Charts/DailyAnswerBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Charts/DailyAnswerBarChart.swift; sourceTree = "<group>"; };
+		10000000000000000000000F /* Benkyokun/Components/Charts/GoalProgressChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Charts/GoalProgressChart.swift; sourceTree = "<group>"; };
+		100000000000000000000010 /* Benkyokun/Components/Feedback/EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Feedback/EmptyStateView.swift; sourceTree = "<group>"; };
+		100000000000000000000011 /* Benkyokun/Components/Feedback/ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Feedback/ErrorMessageView.swift; sourceTree = "<group>"; };
+		100000000000000000000012 /* Benkyokun/Components/Feedback/LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Feedback/LoadingView.swift; sourceTree = "<group>"; };
+		100000000000000000000013 /* Benkyokun/Components/Form/AnswerOptionPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/AnswerOptionPicker.swift; sourceTree = "<group>"; };
+		100000000000000000000014 /* Benkyokun/Components/Form/AppTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/AppTextEditor.swift; sourceTree = "<group>"; };
+		100000000000000000000015 /* Benkyokun/Components/Form/AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/AppTextField.swift; sourceTree = "<group>"; };
+		100000000000000000000016 /* Benkyokun/Components/Form/CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Form/CategoryPicker.swift; sourceTree = "<group>"; };
+		100000000000000000000017 /* Benkyokun/Components/Quiz/AnswerOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Quiz/AnswerOptionButton.swift; sourceTree = "<group>"; };
+		100000000000000000000018 /* Benkyokun/Components/Quiz/CategoryChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Quiz/CategoryChip.swift; sourceTree = "<group>"; };
+		100000000000000000000019 /* Benkyokun/Components/Quiz/QuizProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Quiz/QuizProgressBar.swift; sourceTree = "<group>"; };
+		10000000000000000000001A /* Benkyokun/Components/Settings/SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Components/Settings/SettingsRow.swift; sourceTree = "<group>"; };
+		10000000000000000000001B /* Benkyokun/Extensions/Color+AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Benkyokun/Extensions/Color+AppColors.swift"; sourceTree = "<group>"; };
+		10000000000000000000001C /* Benkyokun/Extensions/Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Benkyokun/Extensions/Date+Extensions.swift"; sourceTree = "<group>"; };
+		10000000000000000000001D /* Benkyokun/Extensions/Double+Percent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Benkyokun/Extensions/Double+Percent.swift"; sourceTree = "<group>"; };
+		10000000000000000000001E /* Benkyokun/Models/AnswerHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/AnswerHistory.swift; sourceTree = "<group>"; };
+		10000000000000000000001F /* Benkyokun/Models/AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/AppSetting.swift; sourceTree = "<group>"; };
+		100000000000000000000020 /* Benkyokun/Models/Enums/AnswerOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/AnswerOption.swift; sourceTree = "<group>"; };
+		100000000000000000000021 /* Benkyokun/Models/Enums/QuestionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/QuestionCategory.swift; sourceTree = "<group>"; };
+		100000000000000000000022 /* Benkyokun/Models/Enums/QuestionSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/QuestionSourceType.swift; sourceTree = "<group>"; };
+		100000000000000000000023 /* Benkyokun/Models/Enums/QuizMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Enums/QuizMode.swift; sourceTree = "<group>"; };
+		100000000000000000000024 /* Benkyokun/Models/Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/Question.swift; sourceTree = "<group>"; };
+		100000000000000000000025 /* Benkyokun/Models/ReviewStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/ReviewStatus.swift; sourceTree = "<group>"; };
+		100000000000000000000026 /* Benkyokun/Models/StudyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Models/StudyGoal.swift; sourceTree = "<group>"; };
+		100000000000000000000027 /* Benkyokun/Repositories/AnswerHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/AnswerHistoryRepository.swift; sourceTree = "<group>"; };
+		100000000000000000000028 /* Benkyokun/Repositories/QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/QuestionRepository.swift; sourceTree = "<group>"; };
+		100000000000000000000029 /* Benkyokun/Repositories/ReviewRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/ReviewRepository.swift; sourceTree = "<group>"; };
+		10000000000000000000002A /* Benkyokun/Repositories/StudyGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Repositories/StudyGoalRepository.swift; sourceTree = "<group>"; };
+		10000000000000000000002B /* Benkyokun/Resources/PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Resources/PreviewData.swift; sourceTree = "<group>"; };
+		10000000000000000000002C /* Benkyokun/Services/GoalProgressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/GoalProgressService.swift; sourceTree = "<group>"; };
+		10000000000000000000002D /* Benkyokun/Services/QuizService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/QuizService.swift; sourceTree = "<group>"; };
+		10000000000000000000002E /* Benkyokun/Services/ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/ReviewService.swift; sourceTree = "<group>"; };
+		10000000000000000000002F /* Benkyokun/Services/SampleDataSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/SampleDataSeeder.swift; sourceTree = "<group>"; };
+		100000000000000000000030 /* Benkyokun/Services/StudyStatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Services/StudyStatsService.swift; sourceTree = "<group>"; };
+		100000000000000000000031 /* Benkyokun/Utilities/AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Utilities/AppConstants.swift; sourceTree = "<group>"; };
+		100000000000000000000032 /* Benkyokun/Utilities/DateCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Utilities/DateCalculator.swift; sourceTree = "<group>"; };
+		100000000000000000000033 /* Benkyokun/Utilities/ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Utilities/ValidationError.swift; sourceTree = "<group>"; };
+		100000000000000000000034 /* Benkyokun/ViewModels/GoalSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/GoalSettingViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000035 /* Benkyokun/ViewModels/HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000036 /* Benkyokun/ViewModels/QuestionFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuestionFormViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000037 /* Benkyokun/ViewModels/QuestionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuestionListViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000038 /* Benkyokun/ViewModels/QuizSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuizSessionViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000039 /* Benkyokun/ViewModels/QuizSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/QuizSettingViewModel.swift; sourceTree = "<group>"; };
+		10000000000000000000003A /* Benkyokun/ViewModels/ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/ReviewViewModel.swift; sourceTree = "<group>"; };
+		10000000000000000000003B /* Benkyokun/ViewModels/SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/SettingsViewModel.swift; sourceTree = "<group>"; };
+		10000000000000000000003C /* Benkyokun/ViewModels/StudyRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/ViewModels/StudyRecordViewModel.swift; sourceTree = "<group>"; };
+		10000000000000000000003D /* Benkyokun/Views/Goal/GoalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Goal/GoalSettingView.swift; sourceTree = "<group>"; };
+		10000000000000000000003E /* Benkyokun/Views/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		10000000000000000000003F /* Benkyokun/Views/QuestionManagement/QuestionCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionCreateView.swift; sourceTree = "<group>"; };
+		100000000000000000000040 /* Benkyokun/Views/QuestionManagement/QuestionEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionEditView.swift; sourceTree = "<group>"; };
+		100000000000000000000041 /* Benkyokun/Views/QuestionManagement/QuestionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionFormView.swift; sourceTree = "<group>"; };
+		100000000000000000000042 /* Benkyokun/Views/QuestionManagement/QuestionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/QuestionManagement/QuestionListView.swift; sourceTree = "<group>"; };
+		100000000000000000000043 /* Benkyokun/Views/Quiz/AnswerResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/AnswerResultView.swift; sourceTree = "<group>"; };
+		100000000000000000000044 /* Benkyokun/Views/Quiz/QuizCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/QuizCompleteView.swift; sourceTree = "<group>"; };
+		100000000000000000000045 /* Benkyokun/Views/Quiz/QuizSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/QuizSettingView.swift; sourceTree = "<group>"; };
+		100000000000000000000046 /* Benkyokun/Views/Quiz/QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Quiz/QuizView.swift; sourceTree = "<group>"; };
+		100000000000000000000047 /* Benkyokun/Views/Review/ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Review/ReviewView.swift; sourceTree = "<group>"; };
+		100000000000000000000048 /* Benkyokun/Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		100000000000000000000049 /* Benkyokun/Views/StudyRecord/StudyRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benkyokun/Views/StudyRecord/StudyRecordView.swift; sourceTree = "<group>"; };
+		300000000000000000000001 /* Benkyokun/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Benkyokun/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		300000000000000000000002 /* Benkyokun/Resources/SampleQuestions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Benkyokun/Resources/SampleQuestions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,81 +193,81 @@
 		000000000000000000000005 /* Benkyokun */ = {
 			isa = PBXGroup;
 			children = (
-				100000000000000000000001 /* AppEnvironment.swift */,
-				100000000000000000000002 /* AppRoute.swift */,
-				100000000000000000000003 /* MainTabView.swift */,
-				100000000000000000000004 /* RootView.swift */,
-				100000000000000000000005 /* BenkyokunApp.swift */,
-				100000000000000000000006 /* DestructiveButton.swift */,
-				100000000000000000000007 /* PrimaryButton.swift */,
-				100000000000000000000008 /* SecondaryButton.swift */,
-				100000000000000000000009 /* AppCard.swift */,
-				10000000000000000000000A /* QuestionCard.swift */,
-				10000000000000000000000B /* ResultCard.swift */,
-				10000000000000000000000C /* StatCard.swift */,
-				10000000000000000000000D /* CategoryAccuracyChart.swift */,
-				10000000000000000000000E /* DailyAnswerBarChart.swift */,
-				10000000000000000000000F /* GoalProgressChart.swift */,
-				100000000000000000000010 /* EmptyStateView.swift */,
-				100000000000000000000011 /* ErrorMessageView.swift */,
-				100000000000000000000012 /* LoadingView.swift */,
-				100000000000000000000013 /* AnswerOptionPicker.swift */,
-				100000000000000000000014 /* AppTextEditor.swift */,
-				100000000000000000000015 /* AppTextField.swift */,
-				100000000000000000000016 /* CategoryPicker.swift */,
-				100000000000000000000017 /* AnswerOptionButton.swift */,
-				100000000000000000000018 /* CategoryChip.swift */,
-				100000000000000000000019 /* QuizProgressBar.swift */,
-				10000000000000000000001A /* SettingsRow.swift */,
-				10000000000000000000001B /* Color+AppColors.swift */,
-				10000000000000000000001C /* Date+Extensions.swift */,
-				10000000000000000000001D /* Double+Percent.swift */,
-				10000000000000000000001E /* AnswerHistory.swift */,
-				10000000000000000000001F /* AppSetting.swift */,
-				100000000000000000000020 /* AnswerOption.swift */,
-				100000000000000000000021 /* QuestionCategory.swift */,
-				100000000000000000000022 /* QuestionSourceType.swift */,
-				100000000000000000000023 /* QuizMode.swift */,
-				100000000000000000000024 /* Question.swift */,
-				100000000000000000000025 /* ReviewStatus.swift */,
-				100000000000000000000026 /* StudyGoal.swift */,
-				100000000000000000000027 /* AnswerHistoryRepository.swift */,
-				100000000000000000000028 /* QuestionRepository.swift */,
-				100000000000000000000029 /* ReviewRepository.swift */,
-				10000000000000000000002A /* StudyGoalRepository.swift */,
-				10000000000000000000002B /* PreviewData.swift */,
-				10000000000000000000002C /* GoalProgressService.swift */,
-				10000000000000000000002D /* QuizService.swift */,
-				10000000000000000000002E /* ReviewService.swift */,
-				10000000000000000000002F /* SampleDataSeeder.swift */,
-				100000000000000000000030 /* StudyStatsService.swift */,
-				100000000000000000000031 /* AppConstants.swift */,
-				100000000000000000000032 /* DateCalculator.swift */,
-				100000000000000000000033 /* ValidationError.swift */,
-				100000000000000000000034 /* GoalSettingViewModel.swift */,
-				100000000000000000000035 /* HomeViewModel.swift */,
-				100000000000000000000036 /* QuestionFormViewModel.swift */,
-				100000000000000000000037 /* QuestionListViewModel.swift */,
-				100000000000000000000038 /* QuizSessionViewModel.swift */,
-				100000000000000000000039 /* QuizSettingViewModel.swift */,
-				10000000000000000000003A /* ReviewViewModel.swift */,
-				10000000000000000000003B /* SettingsViewModel.swift */,
-				10000000000000000000003C /* StudyRecordViewModel.swift */,
-				10000000000000000000003D /* GoalSettingView.swift */,
-				10000000000000000000003E /* HomeView.swift */,
-				10000000000000000000003F /* QuestionCreateView.swift */,
-				100000000000000000000040 /* QuestionEditView.swift */,
-				100000000000000000000041 /* QuestionFormView.swift */,
-				100000000000000000000042 /* QuestionListView.swift */,
-				100000000000000000000043 /* AnswerResultView.swift */,
-				100000000000000000000044 /* QuizCompleteView.swift */,
-				100000000000000000000045 /* QuizSettingView.swift */,
-				100000000000000000000046 /* QuizView.swift */,
-				100000000000000000000047 /* ReviewView.swift */,
-				100000000000000000000048 /* SettingsView.swift */,
-				100000000000000000000049 /* StudyRecordView.swift */,
-				300000000000000000000001 /* Assets.xcassets */,
-				300000000000000000000002 /* SampleQuestions.json */,
+				100000000000000000000001 /* Benkyokun/App/AppEnvironment.swift */,
+				100000000000000000000002 /* Benkyokun/App/AppRoute.swift */,
+				100000000000000000000003 /* Benkyokun/App/MainTabView.swift */,
+				100000000000000000000004 /* Benkyokun/App/RootView.swift */,
+				100000000000000000000005 /* Benkyokun/BenkyokunApp.swift */,
+				100000000000000000000006 /* Benkyokun/Components/Buttons/DestructiveButton.swift */,
+				100000000000000000000007 /* Benkyokun/Components/Buttons/PrimaryButton.swift */,
+				100000000000000000000008 /* Benkyokun/Components/Buttons/SecondaryButton.swift */,
+				100000000000000000000009 /* Benkyokun/Components/Cards/AppCard.swift */,
+				10000000000000000000000A /* Benkyokun/Components/Cards/QuestionCard.swift */,
+				10000000000000000000000B /* Benkyokun/Components/Cards/ResultCard.swift */,
+				10000000000000000000000C /* Benkyokun/Components/Cards/StatCard.swift */,
+				10000000000000000000000D /* Benkyokun/Components/Charts/CategoryAccuracyChart.swift */,
+				10000000000000000000000E /* Benkyokun/Components/Charts/DailyAnswerBarChart.swift */,
+				10000000000000000000000F /* Benkyokun/Components/Charts/GoalProgressChart.swift */,
+				100000000000000000000010 /* Benkyokun/Components/Feedback/EmptyStateView.swift */,
+				100000000000000000000011 /* Benkyokun/Components/Feedback/ErrorMessageView.swift */,
+				100000000000000000000012 /* Benkyokun/Components/Feedback/LoadingView.swift */,
+				100000000000000000000013 /* Benkyokun/Components/Form/AnswerOptionPicker.swift */,
+				100000000000000000000014 /* Benkyokun/Components/Form/AppTextEditor.swift */,
+				100000000000000000000015 /* Benkyokun/Components/Form/AppTextField.swift */,
+				100000000000000000000016 /* Benkyokun/Components/Form/CategoryPicker.swift */,
+				100000000000000000000017 /* Benkyokun/Components/Quiz/AnswerOptionButton.swift */,
+				100000000000000000000018 /* Benkyokun/Components/Quiz/CategoryChip.swift */,
+				100000000000000000000019 /* Benkyokun/Components/Quiz/QuizProgressBar.swift */,
+				10000000000000000000001A /* Benkyokun/Components/Settings/SettingsRow.swift */,
+				10000000000000000000001B /* Benkyokun/Extensions/Color+AppColors.swift */,
+				10000000000000000000001C /* Benkyokun/Extensions/Date+Extensions.swift */,
+				10000000000000000000001D /* Benkyokun/Extensions/Double+Percent.swift */,
+				10000000000000000000001E /* Benkyokun/Models/AnswerHistory.swift */,
+				10000000000000000000001F /* Benkyokun/Models/AppSetting.swift */,
+				100000000000000000000020 /* Benkyokun/Models/Enums/AnswerOption.swift */,
+				100000000000000000000021 /* Benkyokun/Models/Enums/QuestionCategory.swift */,
+				100000000000000000000022 /* Benkyokun/Models/Enums/QuestionSourceType.swift */,
+				100000000000000000000023 /* Benkyokun/Models/Enums/QuizMode.swift */,
+				100000000000000000000024 /* Benkyokun/Models/Question.swift */,
+				100000000000000000000025 /* Benkyokun/Models/ReviewStatus.swift */,
+				100000000000000000000026 /* Benkyokun/Models/StudyGoal.swift */,
+				100000000000000000000027 /* Benkyokun/Repositories/AnswerHistoryRepository.swift */,
+				100000000000000000000028 /* Benkyokun/Repositories/QuestionRepository.swift */,
+				100000000000000000000029 /* Benkyokun/Repositories/ReviewRepository.swift */,
+				10000000000000000000002A /* Benkyokun/Repositories/StudyGoalRepository.swift */,
+				10000000000000000000002B /* Benkyokun/Resources/PreviewData.swift */,
+				10000000000000000000002C /* Benkyokun/Services/GoalProgressService.swift */,
+				10000000000000000000002D /* Benkyokun/Services/QuizService.swift */,
+				10000000000000000000002E /* Benkyokun/Services/ReviewService.swift */,
+				10000000000000000000002F /* Benkyokun/Services/SampleDataSeeder.swift */,
+				100000000000000000000030 /* Benkyokun/Services/StudyStatsService.swift */,
+				100000000000000000000031 /* Benkyokun/Utilities/AppConstants.swift */,
+				100000000000000000000032 /* Benkyokun/Utilities/DateCalculator.swift */,
+				100000000000000000000033 /* Benkyokun/Utilities/ValidationError.swift */,
+				100000000000000000000034 /* Benkyokun/ViewModels/GoalSettingViewModel.swift */,
+				100000000000000000000035 /* Benkyokun/ViewModels/HomeViewModel.swift */,
+				100000000000000000000036 /* Benkyokun/ViewModels/QuestionFormViewModel.swift */,
+				100000000000000000000037 /* Benkyokun/ViewModels/QuestionListViewModel.swift */,
+				100000000000000000000038 /* Benkyokun/ViewModels/QuizSessionViewModel.swift */,
+				100000000000000000000039 /* Benkyokun/ViewModels/QuizSettingViewModel.swift */,
+				10000000000000000000003A /* Benkyokun/ViewModels/ReviewViewModel.swift */,
+				10000000000000000000003B /* Benkyokun/ViewModels/SettingsViewModel.swift */,
+				10000000000000000000003C /* Benkyokun/ViewModels/StudyRecordViewModel.swift */,
+				10000000000000000000003D /* Benkyokun/Views/Goal/GoalSettingView.swift */,
+				10000000000000000000003E /* Benkyokun/Views/Home/HomeView.swift */,
+				10000000000000000000003F /* Benkyokun/Views/QuestionManagement/QuestionCreateView.swift */,
+				100000000000000000000040 /* Benkyokun/Views/QuestionManagement/QuestionEditView.swift */,
+				100000000000000000000041 /* Benkyokun/Views/QuestionManagement/QuestionFormView.swift */,
+				100000000000000000000042 /* Benkyokun/Views/QuestionManagement/QuestionListView.swift */,
+				100000000000000000000043 /* Benkyokun/Views/Quiz/AnswerResultView.swift */,
+				100000000000000000000044 /* Benkyokun/Views/Quiz/QuizCompleteView.swift */,
+				100000000000000000000045 /* Benkyokun/Views/Quiz/QuizSettingView.swift */,
+				100000000000000000000046 /* Benkyokun/Views/Quiz/QuizView.swift */,
+				100000000000000000000047 /* Benkyokun/Views/Review/ReviewView.swift */,
+				100000000000000000000048 /* Benkyokun/Views/Settings/SettingsView.swift */,
+				100000000000000000000049 /* Benkyokun/Views/StudyRecord/StudyRecordView.swift */,
+				300000000000000000000001 /* Benkyokun/Resources/Assets.xcassets */,
+				300000000000000000000002 /* Benkyokun/Resources/SampleQuestions.json */,
 			);
 			name = Benkyokun;
 			sourceTree = "<group>";
@@ -331,8 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400000000000000000000001 /* Assets.xcassets in Resources */,
-				400000000000000000000002 /* SampleQuestions.json in Resources */,
+				400000000000000000000001 /* Benkyokun/Resources/Assets.xcassets in Resources */,
+				400000000000000000000002 /* Benkyokun/Resources/SampleQuestions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,79 +343,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				200000000000000000000001 /* AppEnvironment.swift in Sources */,
-				200000000000000000000002 /* AppRoute.swift in Sources */,
-				200000000000000000000003 /* MainTabView.swift in Sources */,
-				200000000000000000000004 /* RootView.swift in Sources */,
-				200000000000000000000005 /* BenkyokunApp.swift in Sources */,
-				200000000000000000000006 /* DestructiveButton.swift in Sources */,
-				200000000000000000000007 /* PrimaryButton.swift in Sources */,
-				200000000000000000000008 /* SecondaryButton.swift in Sources */,
-				200000000000000000000009 /* AppCard.swift in Sources */,
-				20000000000000000000000A /* QuestionCard.swift in Sources */,
-				20000000000000000000000B /* ResultCard.swift in Sources */,
-				20000000000000000000000C /* StatCard.swift in Sources */,
-				20000000000000000000000D /* CategoryAccuracyChart.swift in Sources */,
-				20000000000000000000000E /* DailyAnswerBarChart.swift in Sources */,
-				20000000000000000000000F /* GoalProgressChart.swift in Sources */,
-				200000000000000000000010 /* EmptyStateView.swift in Sources */,
-				200000000000000000000011 /* ErrorMessageView.swift in Sources */,
-				200000000000000000000012 /* LoadingView.swift in Sources */,
-				200000000000000000000013 /* AnswerOptionPicker.swift in Sources */,
-				200000000000000000000014 /* AppTextEditor.swift in Sources */,
-				200000000000000000000015 /* AppTextField.swift in Sources */,
-				200000000000000000000016 /* CategoryPicker.swift in Sources */,
-				200000000000000000000017 /* AnswerOptionButton.swift in Sources */,
-				200000000000000000000018 /* CategoryChip.swift in Sources */,
-				200000000000000000000019 /* QuizProgressBar.swift in Sources */,
-				20000000000000000000001A /* SettingsRow.swift in Sources */,
-				20000000000000000000001B /* Color+AppColors.swift in Sources */,
-				20000000000000000000001C /* Date+Extensions.swift in Sources */,
-				20000000000000000000001D /* Double+Percent.swift in Sources */,
-				20000000000000000000001E /* AnswerHistory.swift in Sources */,
-				20000000000000000000001F /* AppSetting.swift in Sources */,
-				200000000000000000000020 /* AnswerOption.swift in Sources */,
-				200000000000000000000021 /* QuestionCategory.swift in Sources */,
-				200000000000000000000022 /* QuestionSourceType.swift in Sources */,
-				200000000000000000000023 /* QuizMode.swift in Sources */,
-				200000000000000000000024 /* Question.swift in Sources */,
-				200000000000000000000025 /* ReviewStatus.swift in Sources */,
-				200000000000000000000026 /* StudyGoal.swift in Sources */,
-				200000000000000000000027 /* AnswerHistoryRepository.swift in Sources */,
-				200000000000000000000028 /* QuestionRepository.swift in Sources */,
-				200000000000000000000029 /* ReviewRepository.swift in Sources */,
-				20000000000000000000002A /* StudyGoalRepository.swift in Sources */,
-				20000000000000000000002B /* PreviewData.swift in Sources */,
-				20000000000000000000002C /* GoalProgressService.swift in Sources */,
-				20000000000000000000002D /* QuizService.swift in Sources */,
-				20000000000000000000002E /* ReviewService.swift in Sources */,
-				20000000000000000000002F /* SampleDataSeeder.swift in Sources */,
-				200000000000000000000030 /* StudyStatsService.swift in Sources */,
-				200000000000000000000031 /* AppConstants.swift in Sources */,
-				200000000000000000000032 /* DateCalculator.swift in Sources */,
-				200000000000000000000033 /* ValidationError.swift in Sources */,
-				200000000000000000000034 /* GoalSettingViewModel.swift in Sources */,
-				200000000000000000000035 /* HomeViewModel.swift in Sources */,
-				200000000000000000000036 /* QuestionFormViewModel.swift in Sources */,
-				200000000000000000000037 /* QuestionListViewModel.swift in Sources */,
-				200000000000000000000038 /* QuizSessionViewModel.swift in Sources */,
-				200000000000000000000039 /* QuizSettingViewModel.swift in Sources */,
-				20000000000000000000003A /* ReviewViewModel.swift in Sources */,
-				20000000000000000000003B /* SettingsViewModel.swift in Sources */,
-				20000000000000000000003C /* StudyRecordViewModel.swift in Sources */,
-				20000000000000000000003D /* GoalSettingView.swift in Sources */,
-				20000000000000000000003E /* HomeView.swift in Sources */,
-				20000000000000000000003F /* QuestionCreateView.swift in Sources */,
-				200000000000000000000040 /* QuestionEditView.swift in Sources */,
-				200000000000000000000041 /* QuestionFormView.swift in Sources */,
-				200000000000000000000042 /* QuestionListView.swift in Sources */,
-				200000000000000000000043 /* AnswerResultView.swift in Sources */,
-				200000000000000000000044 /* QuizCompleteView.swift in Sources */,
-				200000000000000000000045 /* QuizSettingView.swift in Sources */,
-				200000000000000000000046 /* QuizView.swift in Sources */,
-				200000000000000000000047 /* ReviewView.swift in Sources */,
-				200000000000000000000048 /* SettingsView.swift in Sources */,
-				200000000000000000000049 /* StudyRecordView.swift in Sources */,
+				200000000000000000000001 /* Benkyokun/App/AppEnvironment.swift in Sources */,
+				200000000000000000000002 /* Benkyokun/App/AppRoute.swift in Sources */,
+				200000000000000000000003 /* Benkyokun/App/MainTabView.swift in Sources */,
+				200000000000000000000004 /* Benkyokun/App/RootView.swift in Sources */,
+				200000000000000000000005 /* Benkyokun/BenkyokunApp.swift in Sources */,
+				200000000000000000000006 /* Benkyokun/Components/Buttons/DestructiveButton.swift in Sources */,
+				200000000000000000000007 /* Benkyokun/Components/Buttons/PrimaryButton.swift in Sources */,
+				200000000000000000000008 /* Benkyokun/Components/Buttons/SecondaryButton.swift in Sources */,
+				200000000000000000000009 /* Benkyokun/Components/Cards/AppCard.swift in Sources */,
+				20000000000000000000000A /* Benkyokun/Components/Cards/QuestionCard.swift in Sources */,
+				20000000000000000000000B /* Benkyokun/Components/Cards/ResultCard.swift in Sources */,
+				20000000000000000000000C /* Benkyokun/Components/Cards/StatCard.swift in Sources */,
+				20000000000000000000000D /* Benkyokun/Components/Charts/CategoryAccuracyChart.swift in Sources */,
+				20000000000000000000000E /* Benkyokun/Components/Charts/DailyAnswerBarChart.swift in Sources */,
+				20000000000000000000000F /* Benkyokun/Components/Charts/GoalProgressChart.swift in Sources */,
+				200000000000000000000010 /* Benkyokun/Components/Feedback/EmptyStateView.swift in Sources */,
+				200000000000000000000011 /* Benkyokun/Components/Feedback/ErrorMessageView.swift in Sources */,
+				200000000000000000000012 /* Benkyokun/Components/Feedback/LoadingView.swift in Sources */,
+				200000000000000000000013 /* Benkyokun/Components/Form/AnswerOptionPicker.swift in Sources */,
+				200000000000000000000014 /* Benkyokun/Components/Form/AppTextEditor.swift in Sources */,
+				200000000000000000000015 /* Benkyokun/Components/Form/AppTextField.swift in Sources */,
+				200000000000000000000016 /* Benkyokun/Components/Form/CategoryPicker.swift in Sources */,
+				200000000000000000000017 /* Benkyokun/Components/Quiz/AnswerOptionButton.swift in Sources */,
+				200000000000000000000018 /* Benkyokun/Components/Quiz/CategoryChip.swift in Sources */,
+				200000000000000000000019 /* Benkyokun/Components/Quiz/QuizProgressBar.swift in Sources */,
+				20000000000000000000001A /* Benkyokun/Components/Settings/SettingsRow.swift in Sources */,
+				20000000000000000000001B /* Benkyokun/Extensions/Color+AppColors.swift in Sources */,
+				20000000000000000000001C /* Benkyokun/Extensions/Date+Extensions.swift in Sources */,
+				20000000000000000000001D /* Benkyokun/Extensions/Double+Percent.swift in Sources */,
+				20000000000000000000001E /* Benkyokun/Models/AnswerHistory.swift in Sources */,
+				20000000000000000000001F /* Benkyokun/Models/AppSetting.swift in Sources */,
+				200000000000000000000020 /* Benkyokun/Models/Enums/AnswerOption.swift in Sources */,
+				200000000000000000000021 /* Benkyokun/Models/Enums/QuestionCategory.swift in Sources */,
+				200000000000000000000022 /* Benkyokun/Models/Enums/QuestionSourceType.swift in Sources */,
+				200000000000000000000023 /* Benkyokun/Models/Enums/QuizMode.swift in Sources */,
+				200000000000000000000024 /* Benkyokun/Models/Question.swift in Sources */,
+				200000000000000000000025 /* Benkyokun/Models/ReviewStatus.swift in Sources */,
+				200000000000000000000026 /* Benkyokun/Models/StudyGoal.swift in Sources */,
+				200000000000000000000027 /* Benkyokun/Repositories/AnswerHistoryRepository.swift in Sources */,
+				200000000000000000000028 /* Benkyokun/Repositories/QuestionRepository.swift in Sources */,
+				200000000000000000000029 /* Benkyokun/Repositories/ReviewRepository.swift in Sources */,
+				20000000000000000000002A /* Benkyokun/Repositories/StudyGoalRepository.swift in Sources */,
+				20000000000000000000002B /* Benkyokun/Resources/PreviewData.swift in Sources */,
+				20000000000000000000002C /* Benkyokun/Services/GoalProgressService.swift in Sources */,
+				20000000000000000000002D /* Benkyokun/Services/QuizService.swift in Sources */,
+				20000000000000000000002E /* Benkyokun/Services/ReviewService.swift in Sources */,
+				20000000000000000000002F /* Benkyokun/Services/SampleDataSeeder.swift in Sources */,
+				200000000000000000000030 /* Benkyokun/Services/StudyStatsService.swift in Sources */,
+				200000000000000000000031 /* Benkyokun/Utilities/AppConstants.swift in Sources */,
+				200000000000000000000032 /* Benkyokun/Utilities/DateCalculator.swift in Sources */,
+				200000000000000000000033 /* Benkyokun/Utilities/ValidationError.swift in Sources */,
+				200000000000000000000034 /* Benkyokun/ViewModels/GoalSettingViewModel.swift in Sources */,
+				200000000000000000000035 /* Benkyokun/ViewModels/HomeViewModel.swift in Sources */,
+				200000000000000000000036 /* Benkyokun/ViewModels/QuestionFormViewModel.swift in Sources */,
+				200000000000000000000037 /* Benkyokun/ViewModels/QuestionListViewModel.swift in Sources */,
+				200000000000000000000038 /* Benkyokun/ViewModels/QuizSessionViewModel.swift in Sources */,
+				200000000000000000000039 /* Benkyokun/ViewModels/QuizSettingViewModel.swift in Sources */,
+				20000000000000000000003A /* Benkyokun/ViewModels/ReviewViewModel.swift in Sources */,
+				20000000000000000000003B /* Benkyokun/ViewModels/SettingsViewModel.swift in Sources */,
+				20000000000000000000003C /* Benkyokun/ViewModels/StudyRecordViewModel.swift in Sources */,
+				20000000000000000000003D /* Benkyokun/Views/Goal/GoalSettingView.swift in Sources */,
+				20000000000000000000003E /* Benkyokun/Views/Home/HomeView.swift in Sources */,
+				20000000000000000000003F /* Benkyokun/Views/QuestionManagement/QuestionCreateView.swift in Sources */,
+				200000000000000000000040 /* Benkyokun/Views/QuestionManagement/QuestionEditView.swift in Sources */,
+				200000000000000000000041 /* Benkyokun/Views/QuestionManagement/QuestionFormView.swift in Sources */,
+				200000000000000000000042 /* Benkyokun/Views/QuestionManagement/QuestionListView.swift in Sources */,
+				200000000000000000000043 /* Benkyokun/Views/Quiz/AnswerResultView.swift in Sources */,
+				200000000000000000000044 /* Benkyokun/Views/Quiz/QuizCompleteView.swift in Sources */,
+				200000000000000000000045 /* Benkyokun/Views/Quiz/QuizSettingView.swift in Sources */,
+				200000000000000000000046 /* Benkyokun/Views/Quiz/QuizView.swift in Sources */,
+				200000000000000000000047 /* Benkyokun/Views/Review/ReviewView.swift in Sources */,
+				200000000000000000000048 /* Benkyokun/Views/Settings/SettingsView.swift in Sources */,
+				200000000000000000000049 /* Benkyokun/Views/StudyRecord/StudyRecordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = R8R38JNS8T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "勉強くん";
@@ -569,6 +570,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = R8R38JNS8T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "勉強くん";

@@ -4,22 +4,33 @@ import SwiftData
 struct SampleDataSeeder {
     static func seedIfNeeded(modelContext: ModelContext) throws {
         let appSetting = try fetchOrCreateAppSetting(modelContext: modelContext)
-
-        guard appSetting.hasSeededSampleQuestions == false else {
-            return
-        }
-
         let sampleQuestions = try loadSampleQuestions()
+        var existingInitialQuestionTexts = try fetchExistingInitialQuestionTexts(modelContext: modelContext)
+        var didChange = false
 
         for sampleQuestion in sampleQuestions {
+            let normalizedQuestionText = sampleQuestion.questionText.normalizedForSeedComparison
+
+            guard existingInitialQuestionTexts.contains(normalizedQuestionText) == false else {
+                continue
+            }
+
             modelContext.insert(sampleQuestion.makeQuestion())
+            existingInitialQuestionTexts.insert(normalizedQuestionText)
+            didChange = true
         }
 
         let now = Date()
-        appSetting.hasSeededSampleQuestions = true
-        appSetting.updatedAt = now
 
-        try modelContext.save()
+        if appSetting.hasSeededSampleQuestions == false {
+            appSetting.hasSeededSampleQuestions = true
+            didChange = true
+        }
+
+        if didChange {
+            appSetting.updatedAt = now
+            try modelContext.save()
+        }
     }
 
     private static func fetchOrCreateAppSetting(modelContext: ModelContext) throws -> AppSetting {
@@ -44,6 +55,16 @@ struct SampleDataSeeder {
 
         let data = try Data(contentsOf: url)
         return try JSONDecoder().decode([SampleQuestion].self, from: data)
+    }
+
+    private static func fetchExistingInitialQuestionTexts(modelContext: ModelContext) throws -> Set<String> {
+        let descriptor = FetchDescriptor<Question>()
+
+        return Set(
+            try modelContext.fetch(descriptor)
+                .filter { $0.sourceType == .initial }
+                .map { $0.questionText.normalizedForSeedComparison }
+        )
     }
 }
 
@@ -84,4 +105,10 @@ private struct SampleQuestion: Decodable {
 
 private enum SampleDataSeederError: Error {
     case resourceNotFound
+}
+
+private extension String {
+    var normalizedForSeedComparison: String {
+        trimmingCharacters(in: .whitespacesAndNewlines)
+    }
 }

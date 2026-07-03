@@ -98,5 +98,905 @@
     "correctOption": "A",
     "category": "検査方法",
     "explanation": "絶縁抵抗計は、電路や機器の絶縁が十分に保たれているかを確認する検査に用います。"
+  },
+  {
+    "questionText": "10Ω、15Ω、5Ωの抵抗を直列に接続したときの合成抵抗はどれか。",
+    "optionA": "5Ω",
+    "optionB": "15Ω",
+    "optionC": "30Ω",
+    "optionD": "75Ω",
+    "correctOption": "C",
+    "category": "電気理論",
+    "explanation": "直列接続の合成抵抗は各抵抗の和です。10Ω + 15Ω + 5Ω = 30Ωです。"
+  },
+  {
+    "questionText": "20Ωと30Ωの抵抗を並列に接続したときの合成抵抗はどれか。",
+    "optionA": "10Ω",
+    "optionB": "12Ω",
+    "optionC": "25Ω",
+    "optionD": "50Ω",
+    "correctOption": "B",
+    "category": "電気理論",
+    "explanation": "並列抵抗は R = 20×30 ÷ (20+30) で求めます。600 ÷ 50 = 12Ωです。"
+  },
+  {
+    "questionText": "100Vの電源に25Ωの抵抗を接続したとき、流れる電流はどれか。",
+    "optionA": "0.25A",
+    "optionB": "2.5A",
+    "optionC": "25A",
+    "optionD": "4A",
+    "correctOption": "D",
+    "category": "電気理論",
+    "explanation": "オームの法則 I = V ÷ R より、100V ÷ 25Ω = 4Aです。"
+  },
+  {
+    "questionText": "200Wの照明器具を3時間使用したときの電力量はどれか。",
+    "optionA": "0.6kWh",
+    "optionB": "2.0kWh",
+    "optionC": "3.0kWh",
+    "optionD": "600kWh",
+    "correctOption": "A",
+    "category": "電気理論",
+    "explanation": "電力量は電力×時間です。200W × 3h = 600Wh = 0.6kWhです。"
+  },
+  {
+    "questionText": "交流100V、10A、力率0.8の負荷の有効電力はどれか。",
+    "optionA": "80W",
+    "optionB": "100W",
+    "optionC": "800W",
+    "optionD": "1000W",
+    "correctOption": "C",
+    "category": "電気理論",
+    "explanation": "単相交流の有効電力は P = VIcosθ です。100V × 10A × 0.8 = 800Wです。"
+  },
+  {
+    "questionText": "同じ材質・同じ断面積の電線で、長さだけを2倍にしたとき抵抗はどうなるか。",
+    "optionA": "半分になる",
+    "optionB": "2倍になる",
+    "optionC": "変わらない",
+    "optionD": "4倍になる",
+    "correctOption": "B",
+    "category": "電気理論",
+    "explanation": "導体の抵抗は長さに比例します。同じ断面積なら、長さを2倍にすると抵抗も2倍になります。"
+  },
+  {
+    "questionText": "周波数60Hzの交流の周期に最も近い値はどれか。",
+    "optionA": "0.0167秒",
+    "optionB": "0.06秒",
+    "optionC": "1秒",
+    "optionD": "60秒",
+    "correctOption": "A",
+    "category": "電気理論",
+    "explanation": "周期 T は周波数 f の逆数です。1 ÷ 60 ≒ 0.0167秒です。"
+  },
+  {
+    "questionText": "単相2線式回路で、負荷電流20A、電線1線の抵抗0.1Ωのとき、往復線路の電圧降下はどれか。",
+    "optionA": "2V",
+    "optionB": "4V",
+    "optionC": "10V",
+    "optionD": "20V",
+    "correctOption": "B",
+    "category": "配電理論",
+    "explanation": "単相2線式では往復2本分を考え、電圧降下は 2 × 20A × 0.1Ω = 4Vです。"
+  },
+  {
+    "questionText": "単相3線式で、両側の100V負荷電流が等しいとき、中性線に流れる電流はどうなるか。",
+    "optionA": "ほぼ0Aになる",
+    "optionB": "両側の電流の和になる",
+    "optionC": "必ず電源電流の2倍になる",
+    "optionD": "周波数と同じ値になる",
+    "correctOption": "A",
+    "category": "配電理論",
+    "explanation": "単相3線式では、左右の負荷が平衡していると中性線電流は打ち消し合い、ほぼ0Aになります。"
+  },
+  {
+    "questionText": "三相200V、10A、力率1の負荷の有効電力に最も近い値はどれか。",
+    "optionA": "1.0kW",
+    "optionB": "2.0kW",
+    "optionC": "3.5kW",
+    "optionD": "20kW",
+    "correctOption": "C",
+    "category": "配電理論",
+    "explanation": "三相電力は P = √3VIcosθ です。√3 × 200V × 10A ≒ 3.46kWです。"
+  },
+  {
+    "questionText": "容量5kVA、二次電圧100Vの単相変圧器で、二次側定格電流はどれか。",
+    "optionA": "5A",
+    "optionB": "20A",
+    "optionC": "25A",
+    "optionD": "50A",
+    "correctOption": "D",
+    "category": "配電理論",
+    "explanation": "単相では容量 VA = V × I です。5000VA ÷ 100V = 50Aです。"
+  },
+  {
+    "questionText": "同じ電力を送る場合、電圧を高くすると電流はどうなるか。",
+    "optionA": "小さくなる",
+    "optionB": "必ず大きくなる",
+    "optionC": "ゼロになる",
+    "optionD": "周波数と等しくなる",
+    "correctOption": "A",
+    "category": "配電理論",
+    "explanation": "電力 P = VI の関係から、同じ電力なら電圧を高くすると必要な電流は小さくなります。"
+  },
+  {
+    "questionText": "配電線の電圧降下が大きくなりやすい条件はどれか。",
+    "optionA": "負荷電流が大きく、電線抵抗が大きい",
+    "optionB": "負荷電流が小さく、電線抵抗が小さい",
+    "optionC": "電線が全くない",
+    "optionD": "負荷を接続していない",
+    "correctOption": "A",
+    "category": "配電理論",
+    "explanation": "電圧降下は電流と電線抵抗に関係します。電流や抵抗が大きいほど電圧降下も大きくなります。"
+  },
+  {
+    "questionText": "幹線の主な役割として最も適切なものはどれか。",
+    "optionA": "照度だけを測定する",
+    "optionB": "分電盤などから各分岐回路へ電力を送る",
+    "optionC": "電源周波数を変換する",
+    "optionD": "接地抵抗を自動でゼロにする",
+    "correctOption": "B",
+    "category": "配電理論",
+    "explanation": "幹線は、引込口や分電盤から分岐回路へ電力を供給する主要な配線です。"
+  },
+  {
+    "questionText": "単相3線式で左右の負荷電流が異なるとき、中性線電流はどれに近いか。",
+    "optionA": "左右の電流の積",
+    "optionB": "左右の電流の平均の2倍",
+    "optionC": "常に0A",
+    "optionD": "左右の電流の差",
+    "correctOption": "D",
+    "category": "配電理論",
+    "explanation": "単相3線式の中性線には、左右の負荷電流の差に相当する電流が流れます。"
+  },
+  {
+    "questionText": "住宅の回路を複数の分岐回路に分ける主な理由はどれか。",
+    "optionA": "負荷を分散し、過負荷や停電範囲を小さくするため",
+    "optionB": "すべての電線を細くするため",
+    "optionC": "電源電圧を必ず上げるため",
+    "optionD": "周波数を変えるため",
+    "correctOption": "A",
+    "category": "配線設計",
+    "explanation": "分岐回路を分けると負荷を分散でき、異常時に影響する範囲も限定しやすくなります。"
+  },
+  {
+    "questionText": "片切スイッチを入れる位置として最も適切なのはどれか。",
+    "optionA": "接地線側",
+    "optionB": "非接地側の電線",
+    "optionC": "保護接地線の途中",
+    "optionD": "中性線と接地線の間",
+    "correctOption": "B",
+    "category": "配線設計",
+    "explanation": "スイッチは負荷の非接地側に入れ、切ったときに負荷へ電圧がかかりにくいようにします。"
+  },
+  {
+    "questionText": "負荷電流に対して細すぎる電線を選ぶと起こりやすい問題はどれか。",
+    "optionA": "電線が冷えすぎる",
+    "optionB": "電力量計が不要になる",
+    "optionC": "発熱が大きくなり危険になる",
+    "optionD": "力率が必ず1を超える",
+    "correctOption": "C",
+    "category": "配線設計",
+    "explanation": "電線が細すぎると抵抗による発熱が大きくなり、絶縁劣化や火災の原因になります。"
+  },
+  {
+    "questionText": "分岐回路の過電流遮断器を選ぶときに重視することはどれか。",
+    "optionA": "電線を保護できる定格にすること",
+    "optionB": "できるだけ大きな定格にすること",
+    "optionC": "照明の色だけで決めること",
+    "optionD": "接地線の色で決めること",
+    "correctOption": "A",
+    "category": "配線設計",
+    "explanation": "過電流遮断器は電線を過熱から守るため、電線の許容電流などに合った定格を選びます。"
+  },
+  {
+    "questionText": "漏電遮断器を設ける主な目的はどれか。",
+    "optionA": "電力量を積算するため",
+    "optionB": "照明の色を変えるため",
+    "optionC": "電線の長さを測るため",
+    "optionD": "漏電時に回路を遮断し感電や火災を防ぐため",
+    "correctOption": "D",
+    "category": "配線設計",
+    "explanation": "漏電遮断器は漏れ電流を検出して回路を遮断し、感電や火災の危険を減らします。"
+  },
+  {
+    "questionText": "消費電力の大きい機器に専用回路を設ける主な理由はどれか。",
+    "optionA": "機器の色をそろえるため",
+    "optionB": "他の負荷との同時使用で過負荷になりにくくするため",
+    "optionC": "接地を不要にするため",
+    "optionD": "電源周波数を固定するため",
+    "correctOption": "B",
+    "category": "配線設計",
+    "explanation": "大きな負荷を専用回路にすると、他の負荷との合計電流で回路が過負荷になることを防ぎやすくなります。"
+  },
+  {
+    "questionText": "長い配線で負荷電流が大きい場合、設計時に特に注意する項目はどれか。",
+    "optionA": "電圧降下",
+    "optionB": "照明器具の形状だけ",
+    "optionC": "工具箱の重さ",
+    "optionD": "壁紙の色",
+    "correctOption": "A",
+    "category": "配線設計",
+    "explanation": "配線が長く電流が大きいほど電圧降下が増えやすく、機器の動作に影響することがあります。"
+  },
+  {
+    "questionText": "変圧器の基本的な働きとして正しいものはどれか。",
+    "optionA": "交流電圧を上げたり下げたりする",
+    "optionB": "直流を必ず交流に変える",
+    "optionC": "電線の被覆をむく",
+    "optionD": "接地抵抗を測定する",
+    "correctOption": "A",
+    "category": "電気機器",
+    "explanation": "変圧器は電磁誘導を利用して、交流の電圧を昇圧または降圧する機器です。"
+  },
+  {
+    "questionText": "単相誘導電動機でコンデンサを用いる主な目的はどれか。",
+    "optionA": "接地線を不要にするため",
+    "optionB": "始動しやすくするための位相差をつくる",
+    "optionC": "回転子を固定するため",
+    "optionD": "電源を直流にするため",
+    "correctOption": "B",
+    "category": "電気機器",
+    "explanation": "単相誘導電動機では、コンデンサで補助巻線に位相差を与え、始動トルクを得やすくします。"
+  },
+  {
+    "questionText": "電動機回路でサーマルリレーを用いる主な目的はどれか。",
+    "optionA": "照度を測るため",
+    "optionB": "電線を曲げるため",
+    "optionC": "過負荷から電動機を保護するため",
+    "optionD": "電源周波数を表示するため",
+    "correctOption": "C",
+    "category": "電気機器",
+    "explanation": "サーマルリレーは過負荷電流による発熱を利用し、電動機を過負荷から保護します。"
+  },
+  {
+    "questionText": "電磁接触器の主な働きはどれか。",
+    "optionA": "接地抵抗を測る",
+    "optionB": "電線の種類を判別する",
+    "optionC": "照明の色を変える",
+    "optionD": "電磁力で主回路を開閉する",
+    "correctOption": "D",
+    "category": "電気機器",
+    "explanation": "電磁接触器はコイルの電磁力で接点を動かし、電動機などの主回路を遠隔で開閉します。"
+  },
+  {
+    "questionText": "配線用遮断器の役割として最も適切なものはどれか。",
+    "optionA": "過負荷や短絡時に回路を遮断する",
+    "optionB": "必ず電圧を2倍にする",
+    "optionC": "電線の被覆をむく",
+    "optionD": "照明器具を固定する",
+    "correctOption": "A",
+    "category": "電気機器",
+    "explanation": "配線用遮断器は、過負荷や短絡などの異常電流から回路や電線を保護します。"
+  },
+  {
+    "questionText": "蛍光灯回路で安定器を用いる主な理由はどれか。",
+    "optionA": "器具の重さを軽くするため",
+    "optionB": "ランプ電流を適切に制限するため",
+    "optionC": "接地を省略するため",
+    "optionD": "電線の色を変えるため",
+    "correctOption": "B",
+    "category": "電気機器",
+    "explanation": "安定器は蛍光ランプに流れる電流を制限し、安定して点灯させる役割があります。"
+  },
+  {
+    "questionText": "LED照明器具に専用電源装置が使われる主な理由はどれか。",
+    "optionA": "器具を接地しないため",
+    "optionB": "電線を自動で接続するため",
+    "optionC": "LEDに適した電圧や電流に制御するため",
+    "optionD": "周波数を必ずゼロにするため",
+    "correctOption": "C",
+    "category": "電気機器",
+    "explanation": "LEDは過電流に弱いため、専用電源装置で適切な電圧・電流に制御して点灯させます。"
+  },
+  {
+    "questionText": "3路スイッチの用途として正しいものはどれか。",
+    "optionA": "1つの照明を2か所から操作する",
+    "optionB": "電力量を測定する",
+    "optionC": "接地抵抗を下げる",
+    "optionD": "電源を三相に変える",
+    "correctOption": "A",
+    "category": "配線器具",
+    "explanation": "3路スイッチは階段や廊下などで、1つの照明を2か所から点滅させるときに使います。"
+  },
+  {
+    "questionText": "4路スイッチを用いる場面として適切なものはどれか。",
+    "optionA": "必ず単独で1か所操作に使う",
+    "optionB": "3路スイッチと組み合わせて3か所以上から操作する",
+    "optionC": "電圧を測定する",
+    "optionD": "電線を圧着する",
+    "correctOption": "B",
+    "category": "配線器具",
+    "explanation": "4路スイッチは3路スイッチと組み合わせ、照明を3か所以上から操作したい場合に使います。"
+  },
+  {
+    "questionText": "パイロットランプの主な用途はどれか。",
+    "optionA": "電線を切断する",
+    "optionB": "接地抵抗を測る",
+    "optionC": "機器や回路の入切状態を表示する",
+    "optionD": "配線管を曲げる",
+    "correctOption": "C",
+    "category": "配線器具",
+    "explanation": "パイロットランプは、スイッチや機器の動作状態を目で確認できるようにする表示灯です。"
+  },
+  {
+    "questionText": "差込形コネクタを使用するときに特に確認すべきことはどれか。",
+    "optionA": "壁紙の色",
+    "optionB": "工具箱の材質",
+    "optionC": "照明器具の形だけ",
+    "optionD": "適合する電線の種類や太さ",
+    "correctOption": "D",
+    "category": "配線器具",
+    "explanation": "差込形コネクタは、適合する電線種類・太さ・本数を守らないと接触不良や発熱の原因になります。"
+  },
+  {
+    "questionText": "接地端子付きコンセントを用いる主な理由はどれか。",
+    "optionA": "機器の金属外箱などを接地し感電リスクを下げるため",
+    "optionB": "電源電圧を上げるため",
+    "optionC": "電力量を減らすため",
+    "optionD": "周波数を変えるため",
+    "correctOption": "A",
+    "category": "配線器具",
+    "explanation": "接地端子付きコンセントは、接地が必要な機器を安全に接地するために使います。"
+  },
+  {
+    "questionText": "調光器を使用するときの注意として適切なものはどれか。",
+    "optionA": "どの負荷にも無条件で使用できる",
+    "optionB": "接地線の代わりに使う",
+    "optionC": "調光対応の照明器具か確認する",
+    "optionD": "電線の被覆をむくために使う",
+    "correctOption": "C",
+    "category": "配線器具",
+    "explanation": "調光器は対応していないLED照明などに使うとちらつきや故障の原因になるため、適合確認が必要です。"
+  },
+  {
+    "questionText": "屋外や水気のある場所で用いるコンセントとして適切なのはどれか。",
+    "optionA": "防雨形など設置場所に適したコンセント",
+    "optionB": "被覆のない裸線",
+    "optionC": "紙製のスイッチ",
+    "optionD": "照度計",
+    "correctOption": "A",
+    "category": "配線器具",
+    "explanation": "屋外では雨水や湿気の影響を受けるため、防雨形など使用場所に適した器具を選びます。"
+  },
+  {
+    "questionText": "リングスリーブを圧着接続するために用いる工具はどれか。",
+    "optionA": "圧着工具",
+    "optionB": "金切りのこ",
+    "optionC": "検電器",
+    "optionD": "接地抵抗計",
+    "correctOption": "A",
+    "category": "工具",
+    "explanation": "リングスリーブの接続には、専用の圧着工具で正しく圧着する必要があります。"
+  },
+  {
+    "questionText": "金属管を曲げる作業に用いる工具はどれか。",
+    "optionA": "絶縁抵抗計",
+    "optionB": "電工ナイフ",
+    "optionC": "パイプベンダ",
+    "optionD": "差込形コネクタ",
+    "correctOption": "C",
+    "category": "工具",
+    "explanation": "パイプベンダは金属管をつぶさず、適切な曲げ半径で曲げるための工具です。"
+  },
+  {
+    "questionText": "電線管に電線を通すとき、呼び線として使う工具はどれか。",
+    "optionA": "圧着工具",
+    "optionB": "通線器",
+    "optionC": "トルクドライバ",
+    "optionD": "リーマ",
+    "correctOption": "B",
+    "category": "工具",
+    "explanation": "通線器は電線管の中へ電線を引き込むために使う工具です。"
+  },
+  {
+    "questionText": "電路に電圧があるかを簡易に確認する工具はどれか。",
+    "optionA": "パイプカッタ",
+    "optionB": "リングスリーブ",
+    "optionC": "ロックナット",
+    "optionD": "検電器",
+    "correctOption": "D",
+    "category": "工具",
+    "explanation": "検電器は、導体や端子に電圧があるかを確認するための工具です。"
+  },
+  {
+    "questionText": "端子ねじを指定された締付け力で締めるために適した工具はどれか。",
+    "optionA": "トルクドライバ",
+    "optionB": "金づち",
+    "optionC": "メジャー",
+    "optionD": "水平器",
+    "correctOption": "A",
+    "category": "工具",
+    "explanation": "トルクドライバは、端子ねじを締め過ぎや緩みがないよう指定トルクで締めるために使います。"
+  },
+  {
+    "questionText": "金属製ボックスに丸穴をあける作業に使われる工具はどれか。",
+    "optionA": "絶縁テープ",
+    "optionB": "接地棒",
+    "optionC": "ノックアウトパンチ",
+    "optionD": "ステップル",
+    "correctOption": "C",
+    "category": "工具",
+    "explanation": "ノックアウトパンチは、金属製ボックスや盤に配管用の穴をあける作業に用います。"
+  },
+  {
+    "questionText": "金属管を切断した後、内側のばりを取る工具はどれか。",
+    "optionA": "検相器",
+    "optionB": "リーマ",
+    "optionC": "圧着工具",
+    "optionD": "ケーブルタッカ",
+    "correctOption": "B",
+    "category": "工具",
+    "explanation": "リーマは切断した金属管の内側のばりを取り、電線の被覆を傷つけにくくするために使います。"
+  },
+  {
+    "questionText": "IV線の説明として正しいものはどれか。",
+    "optionA": "600Vビニル絶縁電線",
+    "optionB": "平形のビニルシースケーブル",
+    "optionC": "金属製の電線管",
+    "optionD": "接地抵抗計",
+    "correctOption": "A",
+    "category": "材料",
+    "explanation": "IV線は600Vビニル絶縁電線で、単線またはより線の導体にビニル絶縁を施した電線です。"
+  },
+  {
+    "questionText": "VVFケーブルの特徴として適切なものはどれか。",
+    "optionA": "金属管そのものである",
+    "optionB": "電圧を測定する計器である",
+    "optionC": "複数の絶縁心線をビニルシースでまとめた平形ケーブルである",
+    "optionD": "接地棒の別名である",
+    "correctOption": "C",
+    "category": "材料",
+    "explanation": "VVFは複数の絶縁電線を外装シースで保護した平形ケーブルで、屋内配線に広く使われます。"
+  },
+  {
+    "questionText": "リングスリーブの用途として正しいものはどれか。",
+    "optionA": "配線管を曲げる",
+    "optionB": "銅線どうしを圧着接続する",
+    "optionC": "電圧を測定する",
+    "optionD": "電動機の回転方向を変える",
+    "correctOption": "B",
+    "category": "材料",
+    "explanation": "リングスリーブは、複数の銅線をまとめて圧着接続するための接続材料です。"
+  },
+  {
+    "questionText": "PF管の特徴として適切なものはどれか。",
+    "optionA": "裸導体である",
+    "optionB": "照明器具である",
+    "optionC": "電力量計である",
+    "optionD": "可とう性のある合成樹脂製の電線管である",
+    "correctOption": "D",
+    "category": "材料",
+    "explanation": "PF管は曲げやすい合成樹脂製の可とう電線管で、配線の保護に使われます。"
+  },
+  {
+    "questionText": "接地線の識別に使われることが多い色はどれか。",
+    "optionA": "緑色または緑/黄の組み合わせ",
+    "optionB": "透明のみ",
+    "optionC": "必ず紫色のみ",
+    "optionD": "必ず黒色のみ",
+    "correctOption": "A",
+    "category": "材料",
+    "explanation": "接地線は識別しやすいよう、緑色または緑/黄の組み合わせが用いられることがあります。"
+  },
+  {
+    "questionText": "ビニルテープを電気工事で使う目的として適切なものはどれか。",
+    "optionA": "電線管を切断するため",
+    "optionB": "接続部などの絶縁や保護のため",
+    "optionC": "接地抵抗を測るため",
+    "optionD": "電圧を昇圧するため",
+    "correctOption": "B",
+    "category": "材料",
+    "explanation": "ビニルテープは、接続部の絶縁保護や表示などに使われる材料です。"
+  },
+  {
+    "questionText": "アウトレットボックスの役割として適切なものはどれか。",
+    "optionA": "電流を測定する",
+    "optionB": "電源周波数を変える",
+    "optionC": "電線の接続部や器具取付部を収める",
+    "optionD": "電線の被覆をむく",
+    "correctOption": "C",
+    "category": "材料",
+    "explanation": "アウトレットボックスは、電線の接続部や器具の取付部分を保護し、収めるために使います。"
+  },
+  {
+    "questionText": "ケーブルの外装をむくときに最も注意すべきことはどれか。",
+    "optionA": "心線の絶縁被覆を傷つけないこと",
+    "optionB": "外装を必ず全部捨てないこと",
+    "optionC": "照明を消して作業すること",
+    "optionD": "接地線を切断すること",
+    "correctOption": "A",
+    "category": "施工方法",
+    "explanation": "心線の絶縁被覆を傷つけると漏電や短絡の原因になるため、外装をむくときは丁寧に作業します。"
+  },
+  {
+    "questionText": "リングスリーブを圧着した後に確認すべきことはどれか。",
+    "optionA": "壁紙の模様",
+    "optionB": "圧着マークや接続状態が適切か",
+    "optionC": "照明器具の色温度だけ",
+    "optionD": "工具箱の重さ",
+    "correctOption": "B",
+    "category": "施工方法",
+    "explanation": "リングスリーブはサイズに合ったダイスで圧着し、圧着マークや抜けがないことを確認します。"
+  },
+  {
+    "questionText": "金属管を切断した後、ばり取りを行う主な理由はどれか。",
+    "optionA": "電圧を高くするため",
+    "optionB": "配線図を省略するため",
+    "optionC": "電線の被覆を傷つけないようにするため",
+    "optionD": "接地を不要にするため",
+    "correctOption": "C",
+    "category": "施工方法",
+    "explanation": "切断面のばりが残ると、通線時に電線被覆を傷つけるおそれがあります。"
+  },
+  {
+    "questionText": "水気のある場所で配線器具を施工するときに適切な考え方はどれか。",
+    "optionA": "どの器具でも同じように使える",
+    "optionB": "絶縁を省略する",
+    "optionC": "接地線を切り離す",
+    "optionD": "場所に適した防水・防湿性能の器具や工法を選ぶ",
+    "correctOption": "D",
+    "category": "施工方法",
+    "explanation": "水気のある場所では漏電や腐食のリスクが高いため、環境に合った器具や工法を選びます。"
+  },
+  {
+    "questionText": "接地工事で重要なことはどれか。",
+    "optionA": "接地線を確実に接続し、緩みや断線を避ける",
+    "optionB": "接地線を負荷線として使う",
+    "optionC": "接地極を絶縁物で完全に包む",
+    "optionD": "接地を表示だけにする",
+    "correctOption": "A",
+    "category": "施工方法",
+    "explanation": "接地は漏電時の安全確保に関わるため、接続の緩みや断線がないよう確実に施工します。"
+  },
+  {
+    "questionText": "金属製ボックスに電線を通す部分でブッシングを用いる主な理由はどれか。",
+    "optionA": "電源周波数を変えるため",
+    "optionB": "電線の被覆を傷つけにくくするため",
+    "optionC": "電線を発熱させるため",
+    "optionD": "接地抵抗を測るため",
+    "correctOption": "B",
+    "category": "施工方法",
+    "explanation": "ブッシングは金属の縁から電線被覆を保護し、損傷による漏電や短絡を防ぎます。"
+  },
+  {
+    "questionText": "電線の接続部を施工するときに適切な場所はどれか。",
+    "optionA": "壁内の見えない場所にむき出しで放置する",
+    "optionB": "水たまりの中に置く",
+    "optionC": "点検できるボックス内などに収める",
+    "optionD": "床の上に露出して踏ませる",
+    "correctOption": "C",
+    "category": "施工方法",
+    "explanation": "接続部は発熱や緩みを点検できるよう、適切なボックス内などに収めて保護します。"
+  },
+  {
+    "questionText": "通電前の目視点検で確認する内容として適切なものはどれか。",
+    "optionA": "器具の取付け、接続、損傷の有無",
+    "optionB": "電力量の請求額",
+    "optionC": "作業服の色だけ",
+    "optionD": "周波数の契約名義",
+    "correctOption": "A",
+    "category": "検査方法",
+    "explanation": "目視点検では、器具の取付状態、配線の損傷、接続ミスなどを通電前に確認します。"
+  },
+  {
+    "questionText": "絶縁抵抗測定を行うときの基本的な注意として適切なものはどれか。",
+    "optionA": "負荷を必ず運転したままにする",
+    "optionB": "測定値を見ない",
+    "optionC": "原則として電源を切って測定する",
+    "optionD": "接地線を負荷線として使う",
+    "correctOption": "C",
+    "category": "検査方法",
+    "explanation": "絶縁抵抗測定は測定器から試験電圧を加えるため、原則として電源を切り安全を確保して行います。"
+  },
+  {
+    "questionText": "導通試験で確認できることはどれか。",
+    "optionA": "照度の明るさ",
+    "optionB": "配線や接続がつながっているか",
+    "optionC": "電力量料金",
+    "optionD": "壁材の種類",
+    "correctOption": "B",
+    "category": "検査方法",
+    "explanation": "導通試験は、配線が断線していないか、意図した端子同士が接続されているかを確認します。"
+  },
+  {
+    "questionText": "コンセントの極性確認で見る内容として適切なものはどれか。",
+    "optionA": "コンセントの色だけ",
+    "optionB": "壁紙との相性",
+    "optionC": "照明の明るさ",
+    "optionD": "非接地側と接地側が正しく接続されているか",
+    "correctOption": "D",
+    "category": "検査方法",
+    "explanation": "極性確認では、コンセントの非接地側と接地側が正しく配線されているかを確認します。"
+  },
+  {
+    "questionText": "接地抵抗計を使用する目的はどれか。",
+    "optionA": "接地極や接地線の抵抗を測定するため",
+    "optionB": "照明の色を変えるため",
+    "optionC": "電線を切断するため",
+    "optionD": "コンセントを固定するため",
+    "correctOption": "A",
+    "category": "検査方法",
+    "explanation": "接地抵抗計は、接地が十分に機能するかを確認するため、接地抵抗を測る計器です。"
+  },
+  {
+    "questionText": "クランプメータで測定しやすいものはどれか。",
+    "optionA": "壁の厚さ",
+    "optionB": "電線を切らずに流れる電流",
+    "optionC": "電線の色",
+    "optionD": "接続箱の材質",
+    "correctOption": "B",
+    "category": "検査方法",
+    "explanation": "クランプメータは電線を挟んで磁界を利用し、回路を切らずに電流を測定できます。"
+  },
+  {
+    "questionText": "絶縁抵抗が極端に低い場合に考えられる原因はどれか。",
+    "optionA": "電線が短すぎるだけ",
+    "optionB": "周波数が高すぎるだけ",
+    "optionC": "絶縁被覆の損傷や湿気による漏れ",
+    "optionD": "電力量計の表示色",
+    "correctOption": "C",
+    "category": "検査方法",
+    "explanation": "絶縁抵抗が低い場合、被覆損傷、湿気、汚れなどにより漏れ電流が生じやすい状態が考えられます。"
+  },
+  {
+    "questionText": "電気工事士の資格が必要とされる主な理由はどれか。",
+    "optionA": "危険を伴う電気工事を安全・適正に行うため",
+    "optionB": "工具を販売するため",
+    "optionC": "電気料金を計算するため",
+    "optionD": "照明の色を選ぶため",
+    "correctOption": "A",
+    "category": "法令",
+    "explanation": "電気工事は感電や火災の危険を伴うため、一定の知識と技能を持つ有資格者が行うことが求められます。"
+  },
+  {
+    "questionText": "第二種電気工事士が主に扱う工事範囲として適切なものはどれか。",
+    "optionA": "すべての高圧受電設備の工事",
+    "optionB": "住宅や小規模な低圧設備などの一般用電気工作物等の工事",
+    "optionC": "発電所の大型タービン整備のみ",
+    "optionD": "通信販売の事務作業のみ",
+    "correctOption": "B",
+    "category": "法令",
+    "explanation": "第二種電気工事士は、住宅など一般用電気工作物等の低圧電気工事を主な対象とします。"
+  },
+  {
+    "questionText": "電気工事士法の目的に近いものはどれか。",
+    "optionA": "照明器具のデザインを統一すること",
+    "optionB": "電気料金を全国一律にすること",
+    "optionC": "電気工事の欠陥による災害の発生を防止すること",
+    "optionD": "工具の色を定めること",
+    "correctOption": "C",
+    "category": "法令",
+    "explanation": "電気工事士法は、電気工事の作業者資格などを定め、工事の欠陥による災害防止を目的としています。"
+  },
+  {
+    "questionText": "電気工事士免状の扱いとして不適切なものはどれか。",
+    "optionA": "紛失しないよう保管する",
+    "optionB": "必要に応じて提示できるようにする",
+    "optionC": "本人の資格を示すものとして扱う",
+    "optionD": "他人に貸して資格者として使わせる",
+    "correctOption": "D",
+    "category": "法令",
+    "explanation": "免状を他人に貸して資格者のように使わせることは不適切です。資格は本人の知識と技能を前提にしています。"
+  },
+  {
+    "questionText": "電気工事の作業に従事するときの基本姿勢として適切なものはどれか。",
+    "optionA": "法令や技術基準を守り安全に施工する",
+    "optionB": "早ければ接続確認を省略する",
+    "optionC": "接地線は見えなければ外してよい",
+    "optionD": "絶縁不良を放置してよい",
+    "correctOption": "A",
+    "category": "法令",
+    "explanation": "電気工事では法令や技術基準を守り、感電や火災を防ぐ安全な施工が重要です。"
+  },
+  {
+    "questionText": "PSEマークが関係する法律分野として適切なものはどれか。",
+    "optionA": "道路標識の表示",
+    "optionB": "電気用品の安全確保",
+    "optionC": "水道料金の徴収",
+    "optionD": "建物の外壁色",
+    "correctOption": "B",
+    "category": "法令",
+    "explanation": "PSEマークは電気用品安全法に基づく表示で、対象の電気用品が安全基準に適合することに関係します。"
+  },
+  {
+    "questionText": "電気工事業を営む場合の考え方として適切なものはどれか。",
+    "optionA": "資格や手続きは一切不要である",
+    "optionB": "広告を出せば法的手続きは不要である",
+    "optionC": "法令に基づく登録や届出などの手続きが必要になる",
+    "optionD": "工具を持っていれば誰でも営業できる",
+    "correctOption": "C",
+    "category": "法令",
+    "explanation": "電気工事業を営む場合は、電気工事業に関する法令に基づき、登録や届出などの手続きが必要になります。"
+  },
+  {
+    "questionText": "電気工事で不適切な施工を避けるべき主な理由はどれか。",
+    "optionA": "感電、火災、設備故障などを防ぐため",
+    "optionB": "工具の数を増やすため",
+    "optionC": "照明の色を必ず青にするため",
+    "optionD": "電源周波数をなくすため",
+    "correctOption": "A",
+    "category": "法令",
+    "explanation": "不適切な施工は感電や火災など重大な事故につながるため、法令と基準に沿った施工が求められます。"
+  },
+  {
+    "questionText": "配線図でスイッチ記号に「3」と添えられている場合、一般に示すものはどれか。",
+    "optionA": "3路スイッチ",
+    "optionB": "3相変圧器",
+    "optionC": "3本の接地棒",
+    "optionD": "3台の電力量計",
+    "correctOption": "A",
+    "category": "配線図",
+    "explanation": "配線図でスイッチに添えられた「3」は、3路スイッチを示す場合があります。"
+  },
+  {
+    "questionText": "配線図でスイッチ記号に「4」と添えられている場合、一般に示すものはどれか。",
+    "optionA": "4個のコンセント",
+    "optionB": "4路スイッチ",
+    "optionC": "4本の接地線",
+    "optionD": "400V専用器具",
+    "correctOption": "B",
+    "category": "配線図",
+    "explanation": "スイッチ記号の添字「4」は、3か所以上の操作に使う4路スイッチを示す場合があります。"
+  },
+  {
+    "questionText": "配線図でコンセントに接地を示す記号が付いている場合、意味として適切なものはどれか。",
+    "optionA": "照明専用である",
+    "optionB": "電圧を測る場所である",
+    "optionC": "接地付きまたは接地端子付きとして扱う",
+    "optionD": "使用禁止を示す",
+    "correctOption": "C",
+    "category": "配線図",
+    "explanation": "コンセントに接地を示す記号がある場合、接地極や接地端子を持つコンセントとして読み取ります。"
+  },
+  {
+    "questionText": "配線図で「WP」と示されたコンセントや器具の意味として適切なものはどれか。",
+    "optionA": "木製を示す",
+    "optionB": "電力量計を示す",
+    "optionC": "力率を示す",
+    "optionD": "防雨形など屋外向けの仕様を示す",
+    "correctOption": "D",
+    "category": "配線図",
+    "explanation": "WPはWeather Proofの略として、防雨形など屋外や水気に配慮した器具を示す場合があります。"
+  },
+  {
+    "questionText": "照明を1つのスイッチで入切する複線図で、スイッチは負荷に対してどのように接続するか。",
+    "optionA": "負荷と直列に接続する",
+    "optionB": "負荷と無関係に接続する",
+    "optionC": "接地線だけに並列接続する",
+    "optionD": "電源線を短絡する",
+    "correctOption": "A",
+    "category": "配線図",
+    "explanation": "スイッチは負荷電流を開閉するため、照明負荷に対して直列に入るように接続します。"
+  },
+  {
+    "questionText": "複線図を作成する主な目的はどれか。",
+    "optionA": "工具の名前を覚えるため",
+    "optionB": "電気料金を計算するため",
+    "optionC": "実際の電線の接続関係を分かりやすくするため",
+    "optionD": "壁紙の色を決めるため",
+    "correctOption": "C",
+    "category": "配線図",
+    "explanation": "複線図は、単線図では省略される電源、スイッチ、負荷間の具体的な接続関係を整理するために使います。"
+  },
+  {
+    "questionText": "配線図に示されるジョイントボックスの役割として適切なものはどれか。",
+    "optionA": "照度を測定する",
+    "optionB": "電線の接続部を収める",
+    "optionC": "電圧を昇圧する",
+    "optionD": "電線を切断する工具である",
+    "correctOption": "B",
+    "category": "配線図",
+    "explanation": "ジョイントボックスは、電線の分岐や接続部を収め、保護や点検をしやすくするために使います。"
+  },
+  {
+    "questionText": "配線図で接地記号が付いた機器に必要な施工として適切なものはどれか。",
+    "optionA": "接地線を接続する",
+    "optionB": "電源線を短絡する",
+    "optionC": "絶縁被覆をすべて取り除く",
+    "optionD": "スイッチを省略する",
+    "correctOption": "A",
+    "category": "配線図",
+    "explanation": "接地記号がある機器は、感電防止のため指定された接地線に確実に接続する必要があります。"
+  },
+  {
+    "questionText": "単線図の読み取りとして適切な説明はどれか。",
+    "optionA": "実際の電線1本だけを必ず示す図である",
+    "optionB": "接続関係をすべて写真で示す図である",
+    "optionC": "工具の収納位置を示す図である",
+    "optionD": "配線経路や器具の関係を簡略化して示す図である",
+    "correctOption": "D",
+    "category": "配線図",
+    "explanation": "単線図は、複数の電線や接続を簡略化して、配線経路や器具の配置関係を読み取りやすくした図です。"
+  },
+  {
+    "questionText": "小さな金属筒状で、複数の銅線を差し込んで圧着する材料はどれか。",
+    "optionA": "リングスリーブ",
+    "optionB": "PF管",
+    "optionC": "埋込連用取付枠",
+    "optionD": "検電器",
+    "correctOption": "A",
+    "category": "鑑別",
+    "explanation": "リングスリーブは銅線どうしを圧着接続するための金属製の接続材料です。"
+  },
+  {
+    "questionText": "透明または樹脂製の本体に電線を差し込んで接続する器具として適切なのはどれか。",
+    "optionA": "パイプベンダ",
+    "optionB": "差込形コネクタ",
+    "optionC": "接地棒",
+    "optionD": "絶縁抵抗計",
+    "correctOption": "B",
+    "category": "鑑別",
+    "explanation": "差込形コネクタは、適合する電線を差し込んで接続する配線用接続器具です。"
+  },
+  {
+    "questionText": "埋込スイッチやコンセントを壁面に取り付けるとき、器具を固定する金属枠はどれか。",
+    "optionA": "リングスリーブ",
+    "optionB": "接地極",
+    "optionC": "埋込連用取付枠",
+    "optionD": "クランプメータ",
+    "correctOption": "C",
+    "category": "鑑別",
+    "explanation": "埋込連用取付枠は、埋込形スイッチやコンセントを壁面に固定するための枠です。"
+  },
+  {
+    "questionText": "電線の接続部や配線器具を収める箱状の材料はどれか。",
+    "optionA": "VVFストリッパ",
+    "optionB": "検相器",
+    "optionC": "ビニルテープ",
+    "optionD": "アウトレットボックス",
+    "correctOption": "D",
+    "category": "鑑別",
+    "explanation": "アウトレットボックスは、電線の接続部や器具の取付部分を収めて保護する箱です。"
+  },
+  {
+    "questionText": "壁面に露出してスイッチを取り付けるための箱状器具はどれか。",
+    "optionA": "露出スイッチボックス",
+    "optionB": "接地抵抗計",
+    "optionC": "差込形コネクタ",
+    "optionD": "パイプカッタ",
+    "correctOption": "A",
+    "category": "鑑別",
+    "explanation": "露出スイッチボックスは、露出配線でスイッチなどを取り付けるためのボックスです。"
+  },
+  {
+    "questionText": "地中に打ち込み、接地線を接続して接地を取る材料はどれか。",
+    "optionA": "ロックナット",
+    "optionB": "接地棒",
+    "optionC": "ジョイントボックス",
+    "optionD": "ワイヤストリッパ",
+    "correctOption": "B",
+    "category": "鑑別",
+    "explanation": "接地棒は地中に埋設または打ち込み、接地線を接続して接地を取るための材料です。"
+  },
+  {
+    "questionText": "金属管の端部に取り付け、電線被覆の損傷を防ぐ部品はどれか。",
+    "optionA": "リングスリーブ",
+    "optionB": "電力量計",
+    "optionC": "絶縁ブッシング",
+    "optionD": "片切スイッチ",
+    "correctOption": "C",
+    "category": "鑑別",
+    "explanation": "絶縁ブッシングは金属管端部に取り付け、ばりなどで電線被覆が傷つくことを防ぎます。"
+  },
+  {
+    "questionText": "金属板などの穴に取り付け、通した電線を保護するゴム製部品はどれか。",
+    "optionA": "圧着工具",
+    "optionB": "パイロットランプ",
+    "optionC": "接地線",
+    "optionD": "ゴムブッシング",
+    "correctOption": "D",
+    "category": "鑑別",
+    "explanation": "ゴムブッシングは金属板の穴の縁から電線を保護し、被覆の損傷を防ぐために使います。"
+  },
+  {
+    "questionText": "金属管をボックスに固定するときに用いるナット状の部品はどれか。",
+    "optionA": "ロックナット",
+    "optionB": "クランプメータ",
+    "optionC": "絶縁抵抗計",
+    "optionD": "ビニルコード",
+    "correctOption": "A",
+    "category": "鑑別",
+    "explanation": "ロックナットは金属管やコネクタをボックスに固定するために用いる部品です。"
   }
 ]
