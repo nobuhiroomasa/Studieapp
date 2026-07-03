@@ -1,0 +1,102 @@
+[
+  {
+    "questionText": "抵抗20Ωに電流3Aが流れている。この抵抗の両端の電圧はどれか。",
+    "optionA": "60V",
+    "optionB": "23V",
+    "optionC": "6.7V",
+    "optionD": "17V",
+    "correctOption": "A",
+    "category": "電気理論",
+    "explanation": "オームの法則 V = I × R より、3A × 20Ω = 60Vです。"
+  },
+  {
+    "questionText": "100V、500Wの電熱器に流れる電流はどれか。",
+    "optionA": "0.5A",
+    "optionB": "5A",
+    "optionC": "50A",
+    "optionD": "500A",
+    "correctOption": "B",
+    "category": "電気理論",
+    "explanation": "電力 P = V × I より、I = P ÷ V = 500W ÷ 100V = 5Aです。"
+  },
+  {
+    "questionText": "単相2線式100V回路で、負荷電流が15A、電線1線の抵抗が0.2Ωのとき、往復線路の電圧降下はどれか。",
+    "optionA": "1.5V",
+    "optionB": "3V",
+    "optionC": "6V",
+    "optionD": "12V",
+    "correctOption": "C",
+    "category": "配電理論",
+    "explanation": "単相2線式の電圧降下は 2 × I × r で求めます。2 × 15A × 0.2Ω = 6Vです。"
+  },
+  {
+    "questionText": "低圧屋内配線の分岐回路で、過電流遮断器の主な目的はどれか。",
+    "optionA": "電線や機器を過電流から保護するため",
+    "optionB": "電圧を常に一定に保つため",
+    "optionC": "電力量を測定するため",
+    "optionD": "周波数を変換するため",
+    "correctOption": "A",
+    "category": "配線設計",
+    "explanation": "過電流遮断器は、短絡や過負荷などの過電流から電線や機器を保護するために設けます。"
+  },
+  {
+    "questionText": "三相誘導電動機の回転方向を反転させる方法として正しいものはどれか。",
+    "optionA": "3本の電源線のうち任意の2本を入れ替える",
+    "optionB": "接地線を外す",
+    "optionC": "周波数を必ず2倍にする",
+    "optionD": "全ての電源線を同じ端子に接続する",
+    "correctOption": "A",
+    "category": "電気機器",
+    "explanation": "三相誘導電動機は、三相電源の任意の2線を入れ替えると相順が変わり、回転方向が反転します。"
+  },
+  {
+    "questionText": "コンセントの接地極付きとして一般に用いられる図記号・器具の目的として最も適切なものはどれか。",
+    "optionA": "感電防止のため接地を取れるようにする",
+    "optionB": "照明の明るさを調整する",
+    "optionC": "電力量を積算する",
+    "optionD": "電源周波数を変える",
+    "correctOption": "A",
+    "category": "配線器具",
+    "explanation": "接地極付きコンセントは、接地が必要な機器を接地できるようにし、感電事故の防止に役立ちます。"
+  },
+  {
+    "questionText": "IV線の絶縁被覆を傷つけにくく、被覆をむく作業に適した工具はどれか。",
+    "optionA": "ウォーターポンププライヤ",
+    "optionB": "ワイヤストリッパ",
+    "optionC": "金切りのこ",
+    "optionD": "パイプレンチ",
+    "correctOption": "B",
+    "category": "工具",
+    "explanation": "ワイヤストリッパは電線の絶縁被覆をむくための工具で、芯線を傷つけにくく作業できます。"
+  },
+  {
+    "questionText": "600Vビニル絶縁ビニルシースケーブル平形を表す記号はどれか。",
+    "optionA": "VVF",
+    "optionB": "IV",
+    "optionC": "CV",
+    "optionD": "OW",
+    "correctOption": "A",
+    "category": "材料",
+    "explanation": "VVFは600Vビニル絶縁ビニルシースケーブル平形を表します。屋内配線で広く使われます。"
+  },
+  {
+    "questionText": "金属管工事で、金属管相互を電気的に接続し接地の連続性を確保する主な理由はどれか。",
+    "optionA": "漏電時に安全に地絡電流を流して保護装置を動作させるため",
+    "optionB": "電線の抵抗を必ずゼロにするため",
+    "optionC": "照明器具の色温度を調整するため",
+    "optionD": "電源の周波数を安定させるため",
+    "correctOption": "A",
+    "category": "施工方法",
+    "explanation": "金属管の接地の連続性を確保することで、漏電時に地絡電流を流し、保護装置を確実に動作させます。"
+  },
+  {
+    "questionText": "絶縁抵抗計を使用する主な目的はどれか。",
+    "optionA": "回路や機器の絶縁状態を確認するため",
+    "optionB": "電力量を積算するため",
+    "optionC": "電線の長さを自動測定するため",
+    "optionD": "照明の照度を測るため",
+    "correctOption": "A",
+    "category": "検査方法",
+    "explanation": "絶縁抵抗計は、電路や機器の絶縁が十分に保たれているかを確認する検査に用います。"
+  }
+]
